@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.1c8551d2.chunk.css",
-  "main.js": "/static/js/main.25ee4c3a.chunk.js",
-  "main.js.map": "/static/js/main.25ee4c3a.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.6efc73d3.chunk.js": "/static/js/2.6efc73d3.chunk.js",
-  "static/js/2.6efc73d3.chunk.js.map": "/static/js/2.6efc73d3.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.ca7b84d34720277526fe403aaf030c21.js": "/precache-manifest.ca7b84d34720277526fe403aaf030c21.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.1c8551d2.chunk.css.map": "/static/css/main.1c8551d2.chunk.css.map",
-  "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+  "main.css": "/giaithuat/static/css/main.1c8551d2.chunk.css",
+  "main.js": "/giaithuat/static/js/main.31dcceef.chunk.js",
+  "main.js.map": "/giaithuat/static/js/main.31dcceef.chunk.js.map",
+  "runtime~main.js": "/giaithuat/static/js/runtime~main.98676692.js",
+  "runtime~main.js.map": "/giaithuat/static/js/runtime~main.98676692.js.map",
+  "static/js/2.6efc73d3.chunk.js": "/giaithuat/static/js/2.6efc73d3.chunk.js",
+  "static/js/2.6efc73d3.chunk.js.map": "/giaithuat/static/js/2.6efc73d3.chunk.js.map",
+  "index.html": "/giaithuat/index.html",
+  "precache-manifest.2fb09ecdcd5aa97afb965b61a69cc749.js": "/giaithuat/precache-manifest.2fb09ecdcd5aa97afb965b61a69cc749.js",
+  "service-worker.js": "/giaithuat/service-worker.js",
+  "static/css/main.1c8551d2.chunk.css.map": "/giaithuat/static/css/main.1c8551d2.chunk.css.map",
+  "static/media/logo.svg": "/giaithuat/static/media/logo.5d5d9eef.svg"
 }
