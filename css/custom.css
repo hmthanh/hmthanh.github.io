@@ -1,0 +1,54 @@
+.title-icon{
+    margin-top:10px;
+}
+.icon-info{
+    /* border-width: 1px;
+    border-style: solid; */
+    /* border-color: rgb(170, 170, 170); */
+    /* border-image: initial; */
+    color:rgb(4, 135, 204);
+}
+.li-info > a{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+}
+.icon-info{
+    background-color: rgb(238, 238, 238);
+    color: rgb(4, 135, 204);
+    border-radius: 4px;
+}
+
+.icon-info:hover{
+    box-shadow: rgb(4, 135, 204) 0px 0px 3px;
+    /* border-color: rgb(4, 135, 204); */
+    background-color: rgb(4, 135, 204);/*rgb(167, 202, 221); */
+    color: rgb(238, 238, 238);
+}
+ul.ul-info li{
+    display: inline;
+    padding-left: 8px;
+}
+.profile-university{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 0;
+
+    color: #3d4451;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #dedede;
+}
+.contact-item{
+    padding-right: 10px;
+}
+.profile-social{
+    text-align:center;
+}
+.interests-list > li{
+    padding-left: 0;
+}
