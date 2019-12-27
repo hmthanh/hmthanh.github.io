@@ -1,0 +1,26 @@
+{
+  "name": "hmthanh.github.io",
+  "version": "1.0.0",
+  "description": "My website CV of Hoang Minh Thanh",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmthanh/hmthanh.github.io.git"
+  },
+  "keywords": [
+    "CV",
+    "hmthanh.github.io",
+    "personal",
+    "website"
+  ],
+  "author": "Hoang Minh Thanh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hmthanh/hmthanh.github.io/issues"
+  },
+  "homepage": "https://github.com/hmthanh/hmthanh.github.io#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}

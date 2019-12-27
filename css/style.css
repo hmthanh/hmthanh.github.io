@@ -2737,6 +2737,7 @@ body {
 .profile-photo img {
   width: 100%;
   display: block;
+  border-radius: 16px;
   box-shadow: 0 0 5px rgba(0,0,0,.4); }
 
   .profile-preword span {
