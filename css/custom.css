@@ -1,14 +1,16 @@
-.title-icon{
-    margin-top:10px;
+.title-icon {
+    margin-top: 10px;
 }
-.icon-info{
+
+.icon-info {
     /* border-width: 1px;
     border-style: solid; */
     /* border-color: rgb(170, 170, 170); */
     /* border-image: initial; */
-    color:rgb(4, 135, 204);
+    color: rgb(4, 135, 204);
 }
-.li-info > a{
+
+.li-info>a {
     display: inline-block;
     width: 34px;
     height: 34px;
@@ -16,23 +18,27 @@
     text-align: center;
     transition: all 0.2s ease 0s;
 }
-.icon-info{
+
+.icon-info {
     background-color: rgb(238, 238, 238);
     color: rgb(4, 135, 204);
     border-radius: 4px;
 }
 
-.icon-info:hover{
+.icon-info:hover {
     box-shadow: rgb(4, 135, 204) 0px 0px 3px;
     /* border-color: rgb(4, 135, 204); */
-    background-color: rgb(4, 135, 204);/*rgb(167, 202, 221); */
+    background-color: rgb(4, 135, 204);
+    /*rgb(167, 202, 221); */
     color: rgb(238, 238, 238);
 }
-ul.ul-info li{
+
+ul.ul-info li {
     display: inline;
-    padding-left: 8px;
+    padding-left: 12px;
 }
-.profile-university{
+
+.profile-university {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.1;
@@ -43,12 +49,26 @@ ul.ul-info li{
     margin-bottom: 25px;
     border-bottom: 1px solid #dedede;
 }
-.contact-item{
-    padding-right: 10px;
+
+.contact-item {
+    padding-right: 13px !important;
 }
-.profile-social{
-    text-align:center;
+
+.profile-social {
+    text-align: center;
 }
-.interests-list > li{
+
+.interests-list>li {
     padding: 10px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.logoStyle {
+    height: 150px;
+    float: center;
+    margin-left: 100px;
+    margin-bottom: 20px;
 }
