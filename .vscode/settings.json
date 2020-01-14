@@ -1,0 +1,10 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "files.autoSave": "afterDelay",
+    "explorer.sortOrder": "type",
+    "files.trimFinalNewlines": true,
+    "editor.acceptSuggestionOnEnter": "off"
+}
