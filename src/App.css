@@ -103,3 +103,8 @@
     border-top-width: 3px;
     border-top-style: solid;
 }
+
+.contact-item{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

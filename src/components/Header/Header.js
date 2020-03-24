@@ -11,7 +11,7 @@ function Header() {
                 <div className="head-bar-inner">
                     <div className="row">
                         <div className="col-sm-4 col-xs-6">
-                            <a className="logo" href="index.html">
+                            <a className="logo" href="/">
                                 <span>Hoang Minh Thanh</span>
                             </a>
                         </div>

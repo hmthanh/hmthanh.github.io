@@ -5,7 +5,7 @@ import Education from "../../components/Education/Education";
 import Experience from "../../components/Experience/Experience";
 import Accomplishments from "../../components/Accomplishments/Accomplishments";
 import Miscellaneous from "../../components/Miscellaneous/Miscellaneous";
-import Footer from "../../components/Footer";
+import Footer from "../../components/Footer/Footer";
 import {ArrowAltCircleUp} from "../../components/Icon/Icon";
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
@@ -33,9 +33,6 @@ class HomePage extends Component {
                     </div>
                     <Footer></Footer>
                 </div>
-                <a className="btn-scroll-top" href="index.html#">
-                    <ArrowAltCircleUp/>
-                </a>
             </div>
         )
     }

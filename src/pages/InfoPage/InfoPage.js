@@ -6,7 +6,7 @@ import Education from "../../components/Education/Education";
 import Experience from "../../components/Experience/Experience";
 import Accomplishments from "../../components/Accomplishments/Accomplishments";
 import Miscellaneous from "../../components/Miscellaneous/Miscellaneous";
-import Footer from "../../components/Footer";
+import Footer from "../../components/Footer/Footer";
 
 class InfoPage extends Component {
     render() {

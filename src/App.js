@@ -4,7 +4,6 @@ import Main from './pages/MainPage'
 import {Provider} from 'react-redux'
 import {ConfigureStore} from './redux/configureStore'
 import MobileNav from "./components/MobileNav";
-import {ArrowAltCircleUp} from "./components/Icon/Icon";
 import './App.css';
 
 const store = ConfigureStore();
@@ -19,9 +18,6 @@ class App extends Component {
                         <Main/>
                     </BrowserRouter>
                 </Provider>
-                <a className="btn-scroll-top" href="index.html#">
-                    <ArrowAltCircleUp/>
-                </a>
             </>
         )
     }

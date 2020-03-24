@@ -9,14 +9,12 @@ export default class Education extends Component {
                     <div className="timeline">
                         <div className="timeline-bar"></div>
                         <div className="timeline-inner clearfix">
-
                             <div className="timeline-box timeline-box-compact timeline-box-left">
                                 <span className="dot"></span>
-
                                 <div className="timeline-box-inner animate-left animated">
                                     <span className="arrow"></span>
                                     <div className="date"><span>Sep. 2018 - Today</span></div>
-                                    <img src="img/hcmus.png" className="logoStyle" alt="HCMUS"/>
+                                    <img src="./img/hcmus.png" className={"logoStyle"} alt="HCMUS"/>
                                     <h3>Bachelor of Computer Science </h3>
                                     <h4><a href="https://en.hcmus.edu.vn/">University of Science</a>, VNU-HCM, Vietnam.
                                     </h4>
@@ -25,7 +23,6 @@ export default class Education extends Component {
 
                             <div className="timeline-box timeline-box-compact timeline-box-right">
                                 <span className="dot"></span>
-
                                 <div className="timeline-box-inner animate-left animated">
                                     <span className="arrow"></span>
                                     <div className="date"><span>Sep. 2012 - Sep. 2015</span></div>

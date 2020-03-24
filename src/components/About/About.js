@@ -3,7 +3,7 @@ import {Envelope, Facebook, Github, Linkedin, Medium, Phone, Skype, Stackoverflo
 
 export default class About extends Component {
     render() {
-        var profileUniversityStyle = {
+        let profileUniversityStyle = {
             padding: 0,
             border: 0,
             margin: 0
@@ -15,11 +15,12 @@ export default class About extends Component {
                         <div className="profile">
                             <div className="row">
                                 <div className="col-xs-5">
-                                    <div className="profile-photo"><img src="img/awatar.png" alt="Hoang Minh Thanh"/>
+                                    <div className="profile-photo">
+                                        <img src="./img/awatar.jpg" width={300} height={300} alt="Hoang Minh Thanh"/>
                                     </div>
                                     <div className="section-txt-btn">
                                         <p><a className="btn btn-lg btn-border ripple" rel="noopener noreferrer"
-                                              target="_blank" href="file/Hoang_Minh_Thanh-CV.pdf">Resume</a></p>
+                                              target="_blank" href="./file/Hoang_Minh_Thanh-CV.pdf">Resume</a></p>
                                     </div>
                                 </div>
                                 <div className="col-xs-7">
