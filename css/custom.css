@@ -51,7 +51,7 @@ ul.ul-info li {
 }
 
 .contact-item {
-    padding-right: 13px !important;
+    padding-right: 12px;
 }
 
 .profile-social {
@@ -71,4 +71,31 @@ ul.ul-info li {
     float: center;
     margin-left: 100px;
     margin-bottom: 20px;
+}
+
+.icon-info svg {
+    vertical-align: -30%;
+}
+
+svg.icon>path {
+    fill: #1a77d4;
+}
+
+.icon-info:hover svg>path {
+    fill: rgb(238, 238, 238);
+}
+
+svg.icon {
+    max-width: 20px;
+    height: 20px;
+    display: inline-block;
+    font-size: 1.33333333em;
+    line-height: .9em;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.arrowcircle > path{
+    fill: #c8c8c8;
 }
