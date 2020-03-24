@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
-import Header from "../../components/Header";
+import Header from "../../components/Header/Header";
 import About from "../../components/About/About";
-import News from "../../components/News";
-import Education from "../../components/Education";
-import Experience from "../../components/Experience";
-import Accomplishments from "../../components/Accomplishments";
-import Miscellaneous from "../../components/Miscellaneous";
+import News from "../../components/News/News";
+import Education from "../../components/Education/Education";
+import Experience from "../../components/Experience/Experience";
+import Accomplishments from "../../components/Accomplishments/Accomplishments";
+import Miscellaneous from "../../components/Miscellaneous/Miscellaneous";
 import Footer from "../../components/Footer";
 
 class InfoPage extends Component {
