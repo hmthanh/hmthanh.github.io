@@ -9,3 +9,7 @@ I am also has experience in Software Engineer with 1+ years of working experienc
 ```sh
 git clone https://github.com/hmthanh/hmthanh.github.io.git
 ```
+
+# Branch
+* develop : ReactJS Source code
+* master : Build ReacJS Product
