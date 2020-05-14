@@ -108,3 +108,9 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+.logoStyle{
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+}

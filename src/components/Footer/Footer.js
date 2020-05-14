@@ -8,7 +8,7 @@ export default class Footer extends Component {
                     <p>
                         Your ambition outweighs your talent
                         <br/>
-                        &copy; 2019 Nguyen Dinh Luan
+                        &copy; 2020 Minh-Thanh Hoang
                     </p>
                 </section>
             </footer>
