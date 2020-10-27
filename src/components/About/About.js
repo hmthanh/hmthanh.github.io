@@ -27,14 +27,27 @@ export default class About extends Component {
                                     <div className="profile-info">
                                         <div className="profile-preword"><span>Hi !</span></div>
                                         <h1 className="profile-title"><span>I'm</span> Minh-Thanh Hoang</h1>
-                                        <div className="job-title">Machine Learning Engineer</div>
+                                        <div className="job-title">Python Developer</div>
                                         <h2 className="profile-position"><strong>BS. Student</strong></h2>
                                         <h2 className="profile-university" style={profileUniversityStyle}>
                                             Computer Science at University of Science - VNU</h2>
                                         <br/>
-                                        <h2 className="profile-university"><strong>Interested field</strong> :
-                                            Handwriting Recognition on Touch Screen, Object Detection and relate field
+                                        <h2 className="profile-university"><strong>Language & tools</strong> :
+                                        <ul className="list-icon">
+                                            <li><img className="item-icon" alt="python" src="./img/icon_python.png"></img></li>
+                                            <li><img className="item-icon" alt="cplusplus" src="./img/icon_cplusplus.png"></img></li>
+                                            <li><img className="item-icon" alt="jupyter" src="./img/icon_jupyter.png"></img></li>
+                                            <li><img className="item-icon" alt="vim" src="./img/icon_vim.png"></img></li>
+                                            <li><img className="item-icon" alt="command" src="./img/icon_command.png"></img></li>
+                                            <li><img className="item-icon" alt="vscode" src="./img/icon_vscode.png"></img></li>
+                                            <li><img className="item-icon" alt="sql" src="./img/icon_sql.png"></img></li>
+                                            <li><img className="item-icon" alt="mysql" src="./img/icon_mysql.png"></img></li>
+                                            <li><img className="item-icon" alt="git" src="./img/icon_git.png"></img></li>
+                                            <li><img className="item-icon" alt="github" src="./img/icon_github.png"></img></li>
+                                        </ul>
                                         </h2>
+                                        
+                                        
                                         <div className="ul-info">
                                             <a className="contact-item" href="tel:+84913472506">
                                                 <Phone/>+84913472506

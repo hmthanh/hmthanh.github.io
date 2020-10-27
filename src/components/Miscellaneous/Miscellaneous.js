@@ -12,10 +12,10 @@ export default class Miscellaneous extends Component {
                             <b>Extra Activities</b>
                         </p>
                         <li>
-                            <em>Support Student Examination Certification </em>, Aug. 2014
+                            <em>Pucca Runner </em> (<a href="https://hmthanh.github.io/pucca_runner/">Play</a>)
                         </li>
                         <li>
-                            <em>Critical Thinking Certification (Soft-skill)</em>, 2015
+                        <em>Quick Draw </em> (<a href="https://hmthanh.github.io/quickdraw/">Play</a>)
                         </li>
                         <br/>
                         <p>

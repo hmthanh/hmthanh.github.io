@@ -22,7 +22,7 @@ export default class Experience extends Component {
                                     <span className="arrow"></span>
                                     <div className="date">Aug. 2018 - Apr. 2019</div>
                                     <img src="img/xep.png" alt="XEP Company" width={388} height={120} style={logoStyle}/>
-                                    <h3>XEP</h3>
+                                    <h3>XEP Company</h3>
                                     <h4>Web Developer</h4>
                                     <p>ASP.NET, C#, MSSQL, ReactJS</p>
                                 </div>
@@ -32,7 +32,7 @@ export default class Experience extends Component {
                                 <span className="dot"></span>
                                 <div className="timeline-box-inner animate-right animated">
                                     <span className="arrow"></span>
-                                    <div className="date">Aug. 2019 - Now</div>
+                                    <div className="date">Aug. 2019 - Apr. 2020</div>
                                     <img src="img/rakumo.png" alt="rakumo Co., Ltd" style={logoStyle}/>
                                     <h3>rakumo Co., Ltd</h3>
                                     <h4>Python Developer</h4>
