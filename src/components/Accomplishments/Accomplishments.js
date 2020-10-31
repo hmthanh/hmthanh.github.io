@@ -40,7 +40,9 @@ export default class Accomplishments extends Component {
                             Technology, HCMUS{" "}
                             <a href="./img/ThachThuc2013.jpg" target="_blank">2013</a>, <a href="./img/ThachThuc2014.jpg" target="_blank">2014</a>
                         </li>
-                        
+                        <li>
+                            <b>Golden level</b><sup>C++, Problem Solving</sup>; Bronze level<sup>Python</sup> in <a href="https://www.hackerrank.com/hmthanh">HackerRank</a>
+                        </li>
                     </div>
                 </div>
             </section>

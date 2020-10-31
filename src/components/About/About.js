@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Envelope, Facebook, Github, Linkedin, Medium, Phone, Skype, Stackoverflow, Twitter} from '../Icon/Icon'
+import {Envelope, Facebook, Github, Linkedin, Medium, Phone, Skype, Stackoverflow, Twitter, HackerRank} from '../Icon/Icon'
 
 export default class About extends Component {
     render() {
@@ -99,6 +99,13 @@ export default class About extends Component {
                                     <a className="icon-info" rel="noopener noreferrer" target="_blank"
                                        href="https://stackoverflow.com/story/hmthanh">
                                         <Stackoverflow/>
+                                    </a>
+                                </li>
+
+                                <li className="li-info">
+                                    <a className="icon-info" rel="noopener noreferrer" target="_blank"
+                                       href="https://www.hackerrank.com/hmthanh">
+                                        <HackerRank/>
                                     </a>
                                 </li>
                             </ul>
