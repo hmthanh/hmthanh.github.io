@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import {Envelope, Facebook, Github, Linkedin, Medium, Phone, Skype, Stackoverflow, Twitter, HackerRank} from '../Icon/Icon'
-
+import {Envelope, Facebook, Github, Linkedin, Medium,  Skype, Stackoverflow, Twitter, HackerRank} from '../Icon/Icon'
+// Phone,
 export default class About extends Component {
     render() {
         let profileUniversityStyle = {
@@ -32,6 +32,7 @@ export default class About extends Component {
                                         <h2 className="profile-university" style={profileUniversityStyle}>
                                             Computer Science at University of Science - VNU</h2>
                                         <br/>
+                                        <h5 className=""><strong>Blog : </strong><a href={"https://hmthanh.github.io/blog/"}>Minh-Thanh's Blog</a></h5>
                                         <h2 className="profile-university"><strong>Language & tools</strong> :
                                         <ul className="list-icon">
                                             <li><img className="item-icon" alt="python" src="./img/icon_python.png"></img></li>
@@ -46,18 +47,17 @@ export default class About extends Component {
                                             <li><img className="item-icon" alt="github" src="./img/icon_github.png"></img></li>
                                         </ul>
                                         </h2>
-                                        
-                                        
+
                                         <div className="ul-info">
-                                            <a className="contact-item" href="tel:+84913472506">
-                                                <Phone/>+84913472506
+                                            <a className="contact-item" href="skype:+hmthanhgm">
+                                                <Skype/> hmthanhgm
                                             </a>
                                             <a className="contact-item" href="mailto:hmthanhgm@gmail.com">
                                                 <Envelope/> hmthanhgm@gmail.com
                                             </a>
-                                            <a className="contact-item" href="skype:+hmthanhgm">
-                                                <Skype/> hmthanhgm
-                                            </a>
+                                            {/*<a className="contact-item" href="tel:+84913472506">*/}
+                                            {/*    <Phone/>+84913472506*/}
+                                            {/*</a>*/}
                                         </div>
                                     </div>
                                 </div>
@@ -110,6 +110,7 @@ export default class About extends Component {
                                 </li>
                             </ul>
                         </div>
+
                     </div>
                 </div>
             </section>
