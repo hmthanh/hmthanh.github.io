@@ -27,7 +27,7 @@ export default class About extends Component {
                                     <div className="profile-info">
                                         <div className="profile-preword"><span>Hi !</span></div>
                                         <h1 className="profile-title"><span>I'm</span> Minh-Thanh Hoang</h1>
-                                        <div className="job-title">Python Developer</div>
+                                        <div className="job-title">Software Engineer</div>
                                         <h2 className="profile-position"><strong>BS. Student</strong></h2>
                                         <h2 className="profile-university" style={profileUniversityStyle}>
                                             Computer Science at University of Science - VNU</h2>
