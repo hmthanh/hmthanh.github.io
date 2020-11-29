@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
 export default class Education extends Component {
     render() {
@@ -14,11 +14,11 @@ export default class Education extends Component {
                                 <div className="timeline-box-inner animate-left animated">
                                     <span className="arrow"></span>
                                     <div className="date"><span>Nov. 2018 - Oct. 2020</span></div>
-                                    <img src="./img/hcmus.png" className={"logoStyle"} alt="HCMUS"/>
+                                    <img src="./img/hcmus.png" className={"logoStyle"} alt="HCMUS" />
                                     <h3 className="timeline-box-header">Bachelor of Computer Science</h3>
                                     <h4><a href="https://en.hcmus.edu.vn/">University of Science</a>, VNU-HCM, Vietnam.
                                     </h4>
-                                    <b>(GPA : 8.2/10)</b>
+                                    <b>(GPA : 8.22/10)</b>
                                     <p>Thesis : Link Prediction in Knowledge Graph (9.5/10)</p>
                                 </div>
                             </div>
@@ -28,7 +28,7 @@ export default class Education extends Component {
                                 <div className="timeline-box-inner animate-left animated">
                                     <span className="arrow"></span>
                                     <div className="date"><span>Sep. 2012 - Sep. 2015</span></div>
-                                    <img src="img/hcmus.png" className="logoStyle" alt="HCMUS"/>
+                                    <img src="img/hcmus.png" className="logoStyle" alt="HCMUS" />
                                     <h3 className="timeline-box-header">College of Information Technology</h3>
                                     <h4>
                                         <a href="https://en.hcmus.edu.vn/">University of Science</a>, VNU-HCM, Vietnam.
