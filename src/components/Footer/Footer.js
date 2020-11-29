@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 export default class Footer extends Component {
     render() {
@@ -6,8 +6,8 @@ export default class Footer extends Component {
             <footer className="footer">
                 <section id="text-section" className="section section-text">
                     <p>
-                        Your ambition outweighs your talent
-                        <br/>
+                        <span role="img" aria-label=".">✨</span> Your ambition outweighs your talent <span role="img" aria-label=".">✨</span>
+                        <br />
                         &copy; 2020 Minh-Thanh Hoang
                     </p>
                 </section>
