@@ -59,7 +59,6 @@ export default class About extends Component {
                         <li>
                           <img className="item-icon" alt="jupyter" src="./img/icon_jupyter.png" />
                         </li>
-
                         <li>
                           <img className="item-icon" alt="command" src="./img/icon_command.png" />
                         </li>
