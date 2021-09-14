@@ -16,21 +16,34 @@ export default class Experience extends Component {
                     <div className="timeline">
                         <div className="timeline-bar"></div>
                         <div className="timeline-inner clearfix">
+                            <div className="timeline-box timeline-box-right">
+                                <span className="dot"></span>
+                                <div className="timeline-box-inner animate-right animated">
+                                    <span className="arrow"></span>
+                                    <div className="date">Oct. 2020 - Present</div>
+                                    <img src="img/fpt.png" alt="FPT Software" style={logoStyle}/>
+                                    <h3>FPT Software</h3>
+                                    <h4>AWS Data Software Engineer</h4>
+                                    <p>AWS, Python, Lamdba, EMR, DynamoDB, Athena, terraform</p>
+                                </div>
+                            </div>
+
                             <div className="timeline-box timeline-box-left">
                                 <span className="dot"></span>
                                 <div className="timeline-box-inner animate-left animated">
                                     <span className="arrow"></span>
                                     <div className="date">Aug. 2018 - Apr. 2019</div>
-                                    <img src="img/xep.png" alt="XEP Company" width={388} height={120} style={logoStyle}/>
+                                    <img src="img/xep.png" alt="XEP Company" width={388} height={120}
+                                         style={logoStyle}/>
                                     <h3>XEP Company</h3>
                                     <h4>Web Developer</h4>
                                     <p>ASP.NET, C#, MSSQL, ReactJS</p>
                                 </div>
                             </div>
 
-                            <div className="timeline-box timeline-box-right">
+                            <div className="timeline-box timeline-box-left">
                                 <span className="dot"></span>
-                                <div className="timeline-box-inner animate-right animated">
+                                <div className="timeline-box-inner animate-left animated">
                                     <span className="arrow"></span>
                                     <div className="date">Aug. 2019 - Apr. 2020</div>
                                     <img src="img/rakumo.png" alt="rakumo Co., Ltd" style={logoStyle}/>
@@ -39,6 +52,8 @@ export default class Experience extends Component {
                                     <p>Python, Django, Flask, Git, Selenium</p>
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                 </div>

@@ -4476,11 +4476,6 @@ only screen and (min-device-pixel-ratio: 2) {
     text-align: center;
 }
 
-.timeline-bar {
-    height: 70px !important;
-    top: 80px !important;
-}
-
 .timeline-box-compact .date span {
     color: #fff;
     font-size: 14px;
@@ -6677,4 +6672,8 @@ body {
     height: 25px;
     display: inline-block;
     margin: 0 5px 0 5px;
+}
+
+#education .timeline .timeline-bar{
+    height: 70px !important;
 }

@@ -14,7 +14,7 @@ class App extends Component {
         return (
             <>
                 <MobileNav></MobileNav>
-				<div></div>
+                <div></div>
                 <Provider store={store}>
                     <BrowserRouter>
                         <Main/>

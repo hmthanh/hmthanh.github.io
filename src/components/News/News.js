@@ -7,7 +7,7 @@ export default class News extends Component {
                 <div className="animate-up animated">
                     <div className="section-box">
                         <p>
-                        HI! I’m +1<sup>year</sup> experienced python web developer, have solid background knowledge about <a href="https://www.hackerrank.com/hmthanh" >Programming Algorithm and Data Structure</a> in <a href="https://en.hcmus.edu.vn/">University of Science, Vietnam National University, Ho Chi Minh city</a>. Proficient Python, C++, experienced in C#, Java and good coding style. I defended my thesis with 9.5 result and ranked excellent. I would like opportunity to work, self-improvement in your company
+                            HI! I’m graduated from <a href="https://en.hcmus.edu.vn/">University of Science, Vietnam National University, Ho Chi Minh city</a>, have solid background knowledge about Object-oriented Programming Algorithm and Data Structure. Proficient Python, C++, experience in Web Development, AWS, a bit of DevOps. With over 3<sup>year</sup> working in industry as software engineer, an enthusiastic about coding, I willing to devote all productive time and effort to work.
                         </p>
                         <p></p>
                     </div>

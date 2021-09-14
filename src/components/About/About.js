@@ -1,5 +1,16 @@
 import React, { Component } from 'react'
-import { Envelope, Facebook, Github, Linkedin, Medium, Skype, Stackoverflow, Twitter, HackerRank } from '../Icon/Icon'
+import {
+  Envelope,
+  Facebook,
+  Github,
+  Linkedin,
+  Medium,
+  Skype,
+  Stackoverflow,
+  Twitter,
+  HackerRank,
+  Kaggle
+} from '../Icon/Icon'
 import "../About/About.css"
 // Phone,
 export default class About extends Component {
@@ -125,6 +136,13 @@ export default class About extends Component {
                   <a className="icon-info" rel="noopener noreferrer" target="_blank"
                     href="https://www.hackerrank.com/hmthanh">
                     <HackerRank />
+                  </a>
+                </li>
+
+                <li className="li-info">
+                  <a className="icon-info" rel="noopener noreferrer" target="_blank"
+                     href="https://www.kaggle.com/hmthanh">
+                    <Kaggle />
                   </a>
                 </li>
               </ul>
