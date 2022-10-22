@@ -1,12 +1,14 @@
-import React, { Component } from "react";
+import React, { Component, lazy } from "react";
 import Header from "../../components/Header/Header";
 import About from "../../components/About/About";
 import News from "../../components/News/News";
 import Education from "../../components/Education/Education";
 import Experience from "../../components/Experience/Experience";
 import Accomplishments from "../../components/Accomplishments/Accomplishments";
-import Miscellaneous from "../../components/Miscellaneous/Miscellaneous";
 import Footer from "../../components/Footer/Footer";
+const Miscellaneous = lazy(() =>
+  import("../../components/Miscellaneous/Miscellaneous")
+);
 
 class InfoPage extends Component {
   render() {
