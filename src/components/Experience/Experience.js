@@ -66,7 +66,7 @@ export default class Experience extends Component {
                   <span className="arrow"></span>
                   <div className="date">Aug. 2018 - Apr. 2019</div>
                   <img
-                    src="img/xep.png"
+                    src="img/xep.webp"
                     alt="XEP Company"
                     width={388}
                     height={120}

@@ -1,25 +1,19 @@
 import React, { Component } from "react";
 import { BrowserRouter } from "react-router-dom";
-import Main from "./pages/MainPage";
-import { Provider } from "react-redux";
-import { ConfigureStore } from "./redux/configureStore";
-import MobileNav from "./components/MobileNav";
+// import Main from "./pages/MainPage";
 import "./App.css";
 import { ArrowAltCircleUp } from "./components/Icon/Icon";
-
-const store = ConfigureStore();
-
+import MobileNav from "./components/MobileNav";
+const Main = React.lazy(() => import("./pages/MainPage"));
 class App extends Component {
   render() {
     return (
       <>
         <MobileNav></MobileNav>
         <div></div>
-        <Provider store={store}>
-          <BrowserRouter>
-            <Main />
-          </BrowserRouter>
-        </Provider>
+        <BrowserRouter>
+          <Main />
+        </BrowserRouter>
         <a className="btn-scroll-top" href="index.html#">
           <ArrowAltCircleUp />
         </a>

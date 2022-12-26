@@ -20,7 +20,7 @@ export default class Education extends Component {
                     <span>Nov. 2017 - Oct. 2020</span>
                   </div>
                   <img
-                    src="./img/hcmus.png"
+                    src="./img/hcmus.webp"
                     className={"logoStyle"}
                     alt="HCMUS"
                   />
@@ -48,7 +48,7 @@ export default class Education extends Component {
                   <div className="date">
                     <span>Oct. 2021 - Now</span>
                   </div>
-                  <img src="img/hcmus.png" className="logoStyle" alt="HCMUS" />
+                  <img src="img/hcmus.webp" className="logoStyle" alt="HCMUS" />
                   <h3 className="timeline-box-header">
                     Master of Information Technology
                   </h3>
