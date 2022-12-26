@@ -29,7 +29,7 @@ export default class About extends Component {
                 <div className="col-xs-5">
                   <div className="profile-photo">
                     <img
-                      src="./img/awatar.jpg"
+                      src="img/awatar.jpg"
                       width={300}
                       height={300}
                       alt="Hoang Minh Thanh"

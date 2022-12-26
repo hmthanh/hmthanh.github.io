@@ -6,7 +6,7 @@ import Experience from "../../components/Experience/Experience";
 import Accomplishments from "../../components/Accomplishments/Accomplishments";
 import Miscellaneous from "../../components/Miscellaneous/Miscellaneous";
 import Footer from "../../components/Footer/Footer";
-import { ArrowAltCircleUp } from "../../components/Icon/Icon";
+// import { ArrowAltCircleUp } from "../../components/Icon/Icon";
 import React, { Component } from "react";
 import { connect } from "react-redux";
 
