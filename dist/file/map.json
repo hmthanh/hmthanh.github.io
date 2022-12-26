@@ -1,0 +1,54 @@
+{
+  type: "map",
+  theme: "dark",
+  projection: "mercator",
+  panEventsEnabled: !0,
+  backgroundColor: "#AADAFF",
+  backgroundAlpha: 1,
+  zoomControl: {
+    zoomControlEnabled: !0
+  },
+  dataProvider: {
+    map: "worldHigh",
+    getAreasFromMap: !0,
+    areas: [
+      {
+        id: "FR",
+        showAsSelected: !0
+      },
+      {
+        id: "CA",
+        showAsSelected: !0
+      },
+      {
+        id: "US",
+        showAsSelected: !0
+      },
+      {
+        id: "CN",
+        showAsSelected: !0
+      },
+      {
+        id: "JP",
+        showAsSelected: !0
+      },
+      {
+        id: "VN",
+        showAsSelected: !0
+      },
+      {
+        id: "AU",
+        showAsSelected: !0
+      }
+    ]
+  },
+  areasSettings: {
+    autoZoom: !0,
+    color: "#FFF7EE",
+    colorSolid: "#84ADE9",
+    selectedColor: "#C9EFBB",
+    outlineColor: "#666666",
+    rollOverColor: "#FFF2AF",
+    rollOverOutlineColor: "#000000"
+  }
+}

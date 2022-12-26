@@ -25,17 +25,16 @@
     "jquery": "^3.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
     "source-map-explorer": "^2.5.3"
   },
   "scripts": {
-    "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "predeploy": "npm run build",
+    "start": "vite start",
+    "build": "vite build",
+    "dev": "vite dev",
+    "test": "vite test",
+    "eject": "vite eject",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
-    "test": "react-scripts --openssl-legacy-provider test",
-    "eject": "react-scripts --openssl-legacy-provider eject"
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^3.0.0",
