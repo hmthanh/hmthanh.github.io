@@ -49,7 +49,7 @@ export default class Experience extends Component {
                 <div className="timeline-box-inner animate-right animated">
                   <span className="arrow"></span>
                   <div className="date">Oct. 2020 - Oct. 2021</div>
-                  <img src="img/fpt.png" alt="FPT Software" />
+                  <img src="img/fpt.png" alt="FPT Software" style={{ width: "80%" }} />
                   <h3>FPT Software</h3>
                   <h4>AWS Data Software Engineer</h4>
                   <p>

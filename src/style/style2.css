@@ -821,7 +821,7 @@
   }
   
   .calendar-busy .calendar-header {
-    *zoom: 1;
+    zoom: 1;
   }
   
   .calendar-busy .calendar-today {
@@ -1597,7 +1597,7 @@
   }
   
   .blog-grid {
-    *zoom: 1;
+    zoom: 1;
   }
   
   .blog-grid .grid-item,

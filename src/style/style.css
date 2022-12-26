@@ -448,7 +448,7 @@ del {
 }
 
 .clearfix {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .hidden {
@@ -684,7 +684,7 @@ textarea {
 }
 
 .row {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .col-xs-1,
@@ -3132,7 +3132,7 @@ body {
 
 .widget_archive ul li,
 .widget_categories ul li {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .widget_archive ul li a,
@@ -3807,7 +3807,7 @@ body {
 }
 
 .grid {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .grid .grid-item,
