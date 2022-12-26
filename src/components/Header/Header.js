@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   var head_style = {
-    backgroundImage: `url('img/cover.png')`,
+    backgroundImage: `url('img/cover.webp')`,
   };
   return (
     <header className="header">
