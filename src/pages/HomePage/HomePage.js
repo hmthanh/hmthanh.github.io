@@ -1,14 +1,13 @@
-import Header from "../../components/Header/Header";
 import About from "../../components/About/About";
-import News from "../../components/News/News";
+import Accomplishments from "../../components/Accomplishments/Accomplishments";
 import Education from "../../components/Education/Education";
 import Experience from "../../components/Experience/Experience";
-import Accomplishments from "../../components/Accomplishments/Accomplishments";
-import Miscellaneous from "../../components/Miscellaneous/Miscellaneous";
 import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import Miscellaneous from "../../components/Miscellaneous/Miscellaneous";
+import News from "../../components/News/News";
 // import { ArrowAltCircleUp } from "../../components/Icon/Icon";
 import React, { Component } from "react";
-import { connect } from "react-redux";
 
 class HomePage extends Component {
   constructor(props) {
@@ -38,10 +37,4 @@ class HomePage extends Component {
   }
 }
 
-const mapDispatchToProps = (dispatch) => ({});
-
-const mapStateToProps = (state) => {
-  return {};
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(HomePage);
+export default HomePage;

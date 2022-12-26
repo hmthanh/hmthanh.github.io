@@ -1,27 +1,17 @@
 import "core-js";
-import React, { Component } from "react";
+import React, { useEffect, useRef } from "react";
 import { countries } from "./mapData";
 import * as am4core from "@amcharts/amcharts4/core";
 import * as am4maps from "@amcharts/amcharts4/maps";
 import am4geodata_worldHigh from "@amcharts/amcharts4-geodata/worldHigh";
 import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 import am4themes_dark from "@amcharts/amcharts4/themes/dark";
-// Promise.all([
-//   import("@amcharts/amcharts4/core"),
-//   import("@amcharts/amcharts4/maps"),
-//   import("@amcharts/amcharts4-geodata/worldHigh"),
-//   import("@amcharts/amcharts4/themes/animated"),
-//   import("@amcharts/amcharts4/themes/dark"),
-// ]).then((modules) => {
 
-class WorldMap extends Component {
-  componentDidMount() {
-    // var am4core = modules[0];
-    // var am4maps = modules[1];
-    // var am4geodata_worldHigh = modules[2].default;
-    // var am4themes_animated = modules[3].default;
-    // var am4themes_dark = modules[4].default;
-
+export default function WorldMap() {
+  const chart = useRef(null);
+  useEffect(() => {
+    let _root = am4core.create("wordMap", am4maps.MapChart);
+    chart.current = _root;
     am4core.useTheme(am4themes_animated);
     am4core.useTheme(am4themes_dark);
 
@@ -31,11 +21,11 @@ class WorldMap extends Component {
     let btnBackgroundColor = am4core.color("#3b3b3b");
 
     // create amchart
-    var _worldMap = am4core.create("wordMap", am4maps.MapChart);
-    _worldMap.projection = new am4maps.projections.Mercator();
-    _worldMap.backgroundColor = "#AADAFF";
-    _worldMap.fill = mapSeaColor;
-    _worldMap.homeZoomLevel = 1;
+    // var _root = am4core.create("wordMap", am4maps.MapChart);
+    _root.projection = new am4maps.projections.Mercator();
+    _root.backgroundColor = "#AADAFF";
+    _root.fill = mapSeaColor;
+    _root.homeZoomLevel = 1;
     let colorSet = [
       am4core.color("#1BA68D"),
       am4core.color("#581845"),
@@ -52,7 +42,7 @@ class WorldMap extends Component {
     ];
 
     // world settings
-    let worldSeries = _worldMap.series.push(new am4maps.MapPolygonSeries());
+    let worldSeries = _root.series.push(new am4maps.MapPolygonSeries());
     worldSeries.useGeodata = true;
     worldSeries.geodata = am4geodata_worldHigh;
     worldSeries.exclude = ["AQ"];
@@ -65,10 +55,10 @@ class WorldMap extends Component {
     worldPolygon.propertyFields.fill = "color";
 
     let hsWorld = worldPolygon.states.create("hover");
-    hsWorld.properties.fill = _worldMap.colors.getIndex(9);
+    hsWorld.properties.fill = _root.colors.getIndex(9);
 
     // country settings
-    let countrySeries = _worldMap.series.push(new am4maps.MapPolygonSeries());
+    let countrySeries = _root.series.push(new am4maps.MapPolygonSeries());
     countrySeries.useGeodata = true;
     countrySeries.hide();
     countrySeries.geodataSource.events.on("done", function (ev) {
@@ -77,13 +67,14 @@ class WorldMap extends Component {
     });
 
     let countryPolygon = countrySeries.mapPolygons.template;
+
     countryPolygon.tooltipText = "{name}";
     countryPolygon.nonScalingStroke = true;
     countryPolygon.strokeOpacity = 0.5;
     countryPolygon.fill = am4core.color("#eee");
 
     let hsCountry = countryPolygon.states.create("hover");
-    hsCountry.properties.fill = _worldMap.colors.getIndex(9);
+    hsCountry.properties.fill = _root.colors.getIndex(9);
 
     // world event
     worldPolygon.events.on("hit", function (ev) {
@@ -121,10 +112,10 @@ class WorldMap extends Component {
     btnZoomControl.marginRight = 10;
     btnZoomControl.opacity = 0.6;
     btnZoomControl.stroke = btnStokeColor;
-    _worldMap.zoomControl = btnZoomControl;
+    _root.zoomControl = btnZoomControl;
 
     // Add back button
-    let btnBack = _worldMap.createChild(am4core.Button);
+    let btnBack = _root.createChild(am4core.Button);
     let btnBackIcon = new am4core.Sprite();
     btnBackIcon.path = "M-6.5,0.5 L7.5,0.5";
     btnBackIcon.stroke = btnStokeColor;
@@ -143,13 +134,13 @@ class WorldMap extends Component {
     btnBack.hide();
     btnBack.events.on("hit", function (ev) {
       worldSeries.show();
-      _worldMap.goHome();
+      _root.goHome();
       countrySeries.hide();
       btnBack.hide();
     });
 
     // Add home button
-    let btnHome = _worldMap.chartContainer.createChild(am4core.Button);
+    let btnHome = _root.chartContainer.createChild(am4core.Button);
     let btnHomeIcon = new am4core.Sprite();
     btnHomeIcon.path =
       "M-6.5,0.5 L0.5,-6.5 L7.5,0.5 L6.5,0.5 L6.5,6.5 L2.5,6.5 L2.5,2.5 L-1.5,2.5 L-1.5,6.5 L-5.5,6.5 L-5.5,0.5 Z";
@@ -163,29 +154,21 @@ class WorldMap extends Component {
     btnHome._background.fill = btnBackgroundColor;
     btnHome.opacity = 0.6;
     btnHome.events.on("hit", function () {
-      _worldMap.goHome();
+      _root.goHome();
     });
 
-    this.worldMap = _worldMap;
-  }
+    return () => {
+      _root.dispose();
+    };
+  }, []);
 
-  componentWillUnmount() {
-    if (this.worldMap) {
-      this.worldMap.dispose();
-    }
-  }
-
-  render() {
-    return (
-      <div
-        id="wordMap"
-        style={{
-          width: "840px",
-          height: "540px",
-        }}
-      ></div>
-    );
-  }
+  return (
+    <div
+      id="wordMap"
+      style={{
+        width: "840px",
+        height: "540px",
+      }}
+    ></div>
+  );
 }
-
-export default WorldMap;

@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-import WorldMap from "../WorldMap/WorldMap";
+import React, { Component, lazy } from "react";
+// import WorldMap from "../WorldMap/WorldMap";
+const WorldMap = lazy(() => import("../WorldMap/WorldMap"));
 
 export default class Miscellaneous extends Component {
   render() {

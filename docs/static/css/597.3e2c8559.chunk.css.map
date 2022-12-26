@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/597.3e2c8559.chunk.css","mappings":"AAQA,OACE,oBACF","sources":["components/About/About.css"],"sourcesContent":["/*.contact-item{*/\n\n/*    padding-top: 10px;*/\n\n/*    padding-bottom: 10px;*/\n\n/*}*/\n\n.vsvim {\n  width: 66px !important;\n}\n"],"names":[],"sourceRoot":""}

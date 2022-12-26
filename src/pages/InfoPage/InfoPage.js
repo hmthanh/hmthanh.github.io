@@ -1,14 +1,12 @@
-import React, { Component, lazy } from "react";
-import Header from "../../components/Header/Header";
+import React, { Component } from "react";
 import About from "../../components/About/About";
-import News from "../../components/News/News";
+import Accomplishments from "../../components/Accomplishments/Accomplishments";
 import Education from "../../components/Education/Education";
 import Experience from "../../components/Experience/Experience";
-import Accomplishments from "../../components/Accomplishments/Accomplishments";
 import Footer from "../../components/Footer/Footer";
-const Miscellaneous = lazy(() =>
-  import("../../components/Miscellaneous/Miscellaneous")
-);
+import Header from "../../components/Header/Header";
+import Miscellaneous from "../../components/Miscellaneous/Miscellaneous";
+import News from "../../components/News/News";
 
 class InfoPage extends Component {
   render() {
@@ -17,12 +15,12 @@ class InfoPage extends Component {
         <Header></Header>
         <div className="content">
           <div className="container">
-            <About></About>
-            <News></News>
-            <Education></Education>
-            <Experience></Experience>
-            <Accomplishments></Accomplishments>
-            <Miscellaneous></Miscellaneous>
+            <About />
+            <News />
+            <Education />
+            <Experience />
+            <Accomplishments />
+            <Miscellaneous />
           </div>
         </div>
         <Footer></Footer>

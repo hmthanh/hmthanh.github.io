@@ -31,7 +31,7 @@ export default class Education extends Component {
                     <a href="https://en.hcmus.edu.vn/">University of Science</a>
                     , VNU-HCM, Vietnam.
                   </h4>
-                  <b>(GPA : 8.2 ~ 3.3/4.0)</b>
+                  {/* <b>(GPA : 8.2 ~ 3.3/4.0)</b> */}
                   <p>
                     Thesis :{" "}
                     <a href="https://github.com/hmthanh/GCAT">
