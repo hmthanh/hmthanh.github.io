@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter } from "react-router-dom";
 // import Main from "./pages/MainPage";
 import "./App.css";
+import "./global.css";
 import { ArrowAltCircleUp } from "./components/Icon/Icon";
 import MobileNav from "./components/MobileNav";
 const Main = React.lazy(() => import("./pages/MainPage"));
