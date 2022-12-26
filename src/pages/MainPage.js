@@ -1,6 +1,5 @@
-import React, { Component, lazy } from "react";
-
-const InfoPage = lazy(() => import("./InfoPage/InfoPage"));
+import React, { Component } from "react";
+import InfoPage from "./InfoPage/InfoPage";
 
 class MainPage extends Component {
   render() {
