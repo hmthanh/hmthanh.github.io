@@ -1,0 +1,60 @@
+{
+  "title": "Hoang Minh Thanh - Your ambition outweighed your talent !",
+  "slogan": "Your ambition outweighed your talent !",
+  "vi-name": "Hoang Minh Thanh",
+  "en-name": "Thanh-Minh Hoang",
+  "position": "MACHINE LEARNING ENGINEER",
+  "degree": "BS. Student",
+  "university": "Computer Science at University of Science - VNU",
+  "interested field": "Handwriting Recognition on Touch Screen, Object Detection and relate field",
+  "resume": "file/Hoang_Minh_Thanh-CV.pdf",
+  "phone": "+84913472506",
+  "email": "hmthanhgm@gmail.com",
+  "skype": "hmthanhgm",
+  "social": {
+    "facebook": "https://www.facebook.com/hmthanhgm",
+    "twitter": "https://twitter.com/hmthanhgm",
+    "linkedin": "https://www.linkedin.com/in/hmthanh/",
+    "github": "https://github.com/hmthanh",
+    "medium": "https://medium.com/@hmthanh",
+    "stackoverflow": "https://stackoverflow.com/story/hmthanh"
+  },
+  "sections": {
+    "ABOUT": {
+      "tag": "#about",
+      "name": "About"
+    },
+    "EDUCATION": {
+      "tag": "#about",
+      "name": "Education"
+    },
+    "EXPERIENCE": {
+      "tag": "#experience",
+      "name": "Experience"
+    },
+    "AWARDS": {
+      "tag": "#awards",
+      "name": "Awards"
+    },
+    "MISCELLANEOUS": {
+      "tag": "#miscellaneous",
+      "name": "Miscellaneous"
+    }
+  },
+  "img": {
+    "cover": "img/cover.png",
+    "awatar": "img/awatar.png",
+    "university1": "img/hcmus.png",
+    "university2": "img/hcmus.png",
+    "company1": "img/xep.png",
+    "company2": "img/rakumo.png",
+    "certification1": "img/Emotion_Regconition.jpg"
+  },
+  "hobbies": {
+    "Coding": "img/coding.png",
+    "Reading": "img/reading.png",
+    "Photographer": "img/photographer.png",
+    "Running": "img/running.png",
+    "Violin": "img/violin.png"
+  }
+}

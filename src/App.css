@@ -1,0 +1,116 @@
+@keyframes cssload-rotate-one {
+    0% {
+        -webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0);
+        -moz-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0);
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(0);
+    }
+    100% {
+        -webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+        -moz-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+    }
+}
+
+@keyframes cssload-rotate-two {
+    0% {
+        -webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(0);
+        -moz-transform: rotateX(50deg) rotateY(10deg) rotateZ(0);
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(0);
+    }
+    100% {
+        -webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+        -moz-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+    }
+}
+
+@keyframes cssload-rotate-three {
+    0% {
+        -webkit-transform: rotateX(35deg) rotateY(55deg) rotateZ(0);
+        -moz-transform: rotateX(35deg) rotateY(55deg) rotateZ(0);
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(0);
+    }
+    100% {
+        -webkit-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+        -moz-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+    }
+}
+
+.preloader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cssload-loader {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    -webkit-perspective: 780px;
+    -moz-perspective: 780px;
+    perspective: 780px;
+}
+
+.preloader-container .cssload-inner.cssload-one {
+    left: 0;
+    top: 0;
+    -webkit-animation: cssload-rotate-one 1.15s linear infinite;
+    -moz-animation: cssload-rotate-one 1.15s linear infinite;
+    -o-animation: cssload-rotate-one 1.15s linear infinite;
+    /* animation: cssload-rotate-one 1.15s linear infinite; */
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.preloader-container .cssload-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border-color: #1a77d4;
+}
+
+.preloader-container .cssload-inner.cssload-two {
+    right: 0;
+    top: 0;
+    -webkit-animation: cssload-rotate-two 1.15s linear infinite;
+    -moz-animation: cssload-rotate-two 1.15s linear infinite;
+    -o-animation: cssload-rotate-two 1.15s linear infinite;
+    animation: cssload-rotate-two 1.15s linear infinite;
+    border-right-width: 3px;
+    border-right-style: solid;
+}
+
+.preloader-container .cssload-inner.cssload-three {
+    right: 0;
+    bottom: 0;
+    -webkit-animation: cssload-rotate-three 1.15s linear infinite;
+    -moz-animation: cssload-rotate-three 1.15s linear infinite;
+    -o-animation: cssload-rotate-three 1.15s linear infinite;
+    animation: cssload-rotate-three 1.15s linear infinite;
+    border-top-width: 3px;
+    border-top-style: solid;
+}
+
+.contact-item{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logoStyle{
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+}

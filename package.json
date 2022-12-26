@@ -1,26 +1,48 @@
 {
-    "name": "hmthanh.github.io",
-    "version": "1.0.0",
-    "description": "My website CV of Hoang Minh Thanh",
-    "main": "index.html",
-    "scripts": {
-        "test": "npm start"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/hmthanh/hmthanh.github.io.git"
-    },
-    "keywords": [
-        "CV",
-        "hmthanh.github.io",
-        "personal",
-        "website"
+  "homepage": "https://hmthanh.github.io",
+  "name": "hmthanh.github.io",
+  "version": "2.1.0",
+  "private": true,
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ],
-    "author": "Hoang Minh Thanh",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/hmthanh/hmthanh.github.io/issues"
-    },
-    "homepage": "https://github.com/hmthanh/hmthanh.github.io#readme",
-    "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.10.32",
+    "@amcharts/amcharts4-geodata": "^4.1.26",
+    "classnames": "^2.3.2",
+    "create-react-app": "^5.0.1",
+    "jquery": "^3.6.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.6.1",
+    "react-router-dom": "^6.6.1",
+    "react-scripts": "^5.0.1",
+    "redux": "4.2.0",
+    "source-map-explorer": "^2.5.3"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
