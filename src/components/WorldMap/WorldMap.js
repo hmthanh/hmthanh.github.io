@@ -1,4 +1,4 @@
-import "core-js";
+// import "core-js";
 import React, { useEffect, useRef } from "react";
 import { countries } from "./mapData";
 import * as am4core from "@amcharts/amcharts4/core";
@@ -12,6 +12,7 @@ export default function WorldMap() {
   useEffect(() => {
     let _root = am4core.create("wordMap", am4maps.MapChart);
     chart.current = _root;
+    // chart.current._logo.dispose();
     am4core.useTheme(am4themes_animated);
     am4core.useTheme(am4themes_dark);
 
