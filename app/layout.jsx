@@ -1,24 +1,17 @@
 import './globals.css';
 import '../style/theme_color.css';
 import '../style/custom.css';
+import Head from 'next/head';
 
 import '../style/general.css';
-import '../style/form.css';
 import '../style/grid.css';
-// import '../style/editor.css';
-// import '../style/components.css';
-import '../style/icon.css';
+import '../style/components.css';
 import '../style/containers.css';
-import '../style/overlay.css';
 import '../style/header.css';
 import '../style/sidebar.css';
 import '../style/home.css';
-import '../style/blog.css';
-import '../style/errorpage.css';
-import '../style/footer.css';
 import '../style/theme_dark.css';
 import '../style/old_browser.css';
-import Head from 'next/head';
 
 export const metadata = {
   title: 'Hoang Minh Thanh - ✨ Your ambition outweighed your talent ! ✨',

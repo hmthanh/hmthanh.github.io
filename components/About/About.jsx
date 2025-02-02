@@ -76,7 +76,7 @@ export default function About() {
                   <br />
                   <h5 className="">
                     <strong>Pages : </strong>
-                    <Link href={'https://hmthanh.github.io/blog/'}>
+                    <Link href={'https://millionscope.com'}>
                       MillionScope.com
                     </Link>
                   </h5>
@@ -160,14 +160,17 @@ export default function About() {
                   </h2>
 
                   <div className="mx-auto flex justify-center gap-4 items-center">
-                    <Link className="fill-primary flex items-center gap-2" href="skype:+hmthanhgm">
-                      <Skype /> hmthanhgm
+                    <Link
+                      className="fill-primary flex items-center gap-2"
+                      href="skype:+hmthanhgm"
+                    >
+                      <Skype className="w-5 h-5" /> hmthanhgm
                     </Link>
                     <Link
                       className="fill-primary flex items-center gap-2"
                       href="mailto:hmthanhgm@gmail.com"
                     >
-                      <Envelope /> hmthanhgm@gmail.com
+                      <Envelope className="w-5 h-5" /> hmthanhgm@gmail.com
                     </Link>
                     {/*<Link className="fill-primary flex items-center gap-2" href="tel:+84913472506">*/}
                     {/*    <Phone/>+84913472506*/}

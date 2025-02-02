@@ -57,18 +57,3 @@ ul.ul-info li {
 .footer {
   text-align: center;
 }
-
-svg.icon {
-  max-width: 20px;
-  height: 20px;
-  display: inline-block;
-  font-size: 1.33333333em;
-  line-height: 0.9em;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.arrowcircle > path {
-  fill: #c8c8c8;
-}
