@@ -3,162 +3,6 @@
  */
 
 /**
- * 6.1 - Buttons
- */
-
-.btn {
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1;
-  text-align: center;
-  vertical-align: middle;
-  display: inline-block;
-  border: none;
-  cursor: pointer;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  background-image: none;
-}
-
-.btn,
-.btn-outer {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2), 0 2px 5px rgba(0, 0, 0, 0.17);
-}
-
-.btn-outer .btn {
-  box-shadow: none;
-}
-
-.btn:hover,
-.btn:focus,
-.btn-outer:hover,
-.btn-outer:focus {
-  opacity: 0.95;
-  text-decoration: none;
-  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-}
-
-.btn-outer {
-  display: inline-block;
-}
-
-.btn-outer .btn {
-  background: transparent !important;
-}
-
-.btn-outer:hover .btn,
-.btn-outer:focus .btn {
-  opacity: 1;
-  box-shadow: none;
-}
-
-.btn-lg {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 15px 20px;
-  min-width: 60%;
-}
-
-.btn-border {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #3d4451 !important;
-  border: 1px solid #cbcdcf;
-  background: transparent;
-  box-shadow: none;
-}
-
-.btn-primary {
-  color: #fff;
-}
-
-.btn-scroll-top {
-  z-index: 10;
-  bottom: 35px;
-  right: 40px;
-  position: fixed;
-  width: 40px;
-  height: 40px;
-  display: none;
-  text-align: center;
-  text-decoration: none;
-  border: 1px solid #d2d2d2;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: rgba(0, 0, 0, 0.02);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
-.btn-scroll-top:hover {
-  background-color: #fff;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-}
-
-.btn-scroll-top .icon {
-  color: #c8c8c8;
-  color: rgba(0, 0, 0, 0.2);
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 38px;
-}
-
-@media (max-width: 1180px) {
-  .btn-scroll-top {
-    right: 15px;
-    bottom: 15px;
-  }
-}
-
-/**
-   * 6.2 - Ripple
-   */
-
-.ripple {
-  overflow: hidden;
-  position: relative;
-  user-select: none;
-  display: inline-block;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-.ripple-effect {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  user-select: none;
-  pointer-events: none;
-  background-color: rgba(0, 0, 0, 0.15);
-  -webkit-transform: translate3d(-50%, -50%, 0);
-  -moz-transform: translate3d(-50%, -50%, 0);
-  transform: translate3d(-50%, -50%, 0);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
-
-/**
    * 6.3 - Social
    */
 
@@ -331,7 +175,7 @@
 
 .mejs-container .mejs-controls:before,
 .mejs-container .mejs-controls:after {
-  content: "";
+  content: '';
   width: 100%;
   height: 1px;
   position: absolute;
@@ -353,8 +197,14 @@
   height: 40px;
 }
 
-.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
-.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.mejs-container
+  .mejs-controls
+  .mejs-horizontal-volume-slider
+  .mejs-horizontal-volume-current,
+.mejs-container
+  .mejs-controls
+  .mejs-horizontal-volume-slider
+  .mejs-horizontal-volume-total,
 .mejs-container .mejs-controls .mejs-time-rail span,
 .mejs-container .mejs-controls .mejs-time-rail a {
   -webkit-border-radius: 0;
@@ -423,11 +273,20 @@
   display: none;
 }
 
-.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
-.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+.mejs-container
+  .mejs-controls
+  .mejs-horizontal-volume-slider
+  .mejs-horizontal-volume-total,
+.mejs-container
+  .mejs-controls
+  .mejs-horizontal-volume-slider
+  .mejs-horizontal-volume-current {
   top: 16px;
 }
 
-.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+.mejs-container
+  .mejs-controls
+  .mejs-horizontal-volume-slider
+  .mejs-horizontal-volume-total {
   background: #3d4550;
 }

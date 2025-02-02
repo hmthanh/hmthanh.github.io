@@ -1,5 +1,37 @@
+import ShowCertificate from '../Certificate/ShowCertificate';
+import { Fancybox as NativeFancybox } from '@fancyapps/ui';
 
 export default function Accomplishments() {
+  const handleCriticalThinking = () => {
+    NativeFancybox.show([
+      {
+        src: '/img/Critical_Thinking.jpg',
+        type: 'image',
+        caption: 'Critical Thinking Certificate',
+      },
+      {
+        src: '/img/ml_summer.jpg',
+        type: 'image',
+        caption: 'Machine Learning Summar Certificate',
+      },
+      {
+        src: '/img/Emotion_Regconition.jpg',
+        type: 'image',
+        caption: 'Emotion Regconition Certificate',
+      },
+      {
+        src: '/img/ThachThuc2013.jpg',
+        type: 'image',
+        caption: 'ThachThuc2013',
+      },
+      {
+        src: '/img/ThachThuc2014.jpg',
+        type: 'image',
+        caption: 'ThachThuc2014',
+      },
+    ]);
+  };
+
   return (
     <section id="accomplishments" className="section section-text">
       <div className="animate-up animated">
@@ -11,57 +43,58 @@ export default function Accomplishments() {
           </li>
           <li>
             <em>
-              <a
-                href="./img/Critical_Thinking.jpg"
-                target="_blank"
-                rel="noopener noreferrer"
+              <ShowCertificate
+                image="/img/Critical_Thinking.jpg"
+                caption="Critical Thinking Certificate"
               >
                 Critical Thinking Certification
-              </a>
+              </ShowCertificate>
             </em>
             , Oct. 2014
           </li>
           <li>
             <em>
-              <a
-                href="./img/ml_summer.jpg"
-                target="_blank"
-                rel="noopener noreferrer"
+              <ShowCertificate
+                image="/img/ml_summer.jpg"
+                caption="Summer Course Machine Learning - HCMUS"
               >
                 Summer Course Machine Learning - HCMUS
-              </a>
+              </ShowCertificate>
             </em>
             , Oct. 2019
           </li>
           <li>
             <em>
-              <a
-                href="./img/Emotion_Regconition.jpg"
-                target="_blank"
-                rel="noopener noreferrer"
+              <ShowCertificate
+                image="/img/Emotion_Regconition.jpg"
+                caption="Emotion Recognition Certification - HCMUS"
               >
                 Emotion Recognition Certification - HCMUS
-              </a>
+              </ShowCertificate>
             </em>
             , Nov. 2019
           </li>
           <li>
-            <b>Second Round</b> in{" "}
-            <a href="https://www.youtube.com/watch?v=hiit2jOgwVQ">
-              Thach Thuc
-            </a>{" "}
-            Faculty of Information Technology, HCMUS{" "}
-            <a href="./img/ThachThuc2013.jpg" target="_blank">
+            <b>Second Round</b> in{' '}
+            <a href="https://www.youtube.com/watch?v=hiit2jOgwVQ">Thach Thuc</a>{' '}
+            Faculty of Information Technology, HCMUS{' '}
+            <ShowCertificate
+              image="/img/ThachThuc2013.jpg"
+              caption="ThachThuc 2013"
+            >
               2013
-            </a>
-            ,{" "}
-            <a href="./img/ThachThuc2014.jpg" rel="noopener noreferrer">
+            </ShowCertificate>
+            ,{' '}
+            <ShowCertificate
+              image="/img/ThachThuc2014.jpg"
+              caption="ThachThuc 2014"
+            >
               2014
-            </a>
+            </ShowCertificate>
           </li>
           <li>
             <b>Golden level</b>
-            <sup>C++, Problem Solving</sup>; Bronze level<sup>Python</sup> in{" "}
+            <sup>C++, Problem Solving</sup>; Bronze level<sup>Python</sup> in' '
             <a href="https://www.hackerrank.com/hmthanh">HackerRank</a>
           </li>
           <li>
@@ -70,7 +103,7 @@ export default function Accomplishments() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              AWS Certified Solutions Architect – Associate
+              AWS Certified Solutions Architect - Associate
             </a>
             , June. 2021
           </li>
