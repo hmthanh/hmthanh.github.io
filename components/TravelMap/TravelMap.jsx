@@ -56,29 +56,6 @@ export default function WorldMap() {
       }),
     );
 
-    // ************************* worldSeries *************************
-    // // Create polygon series for world map
-    // const worldSeries = chart.series.push(
-    //     am5map.MapPolygonSeries.new(root, {
-    //         geoJSON: am5geodata_worldHigh,
-    //         exclude: ['AQ'],
-    //         fill: am5.color('rgb(255, 247, 238)'),
-    //     })
-    // );
-
-    // // Configure world series polygons
-    // worldSeries.mapPolygons.template.setAll({
-    //     tooltipText: '{name}',
-    //     strokeOpacity: 0.5,
-    //     stroke: am5.color('#000'),
-    //     interactive: true,
-    // });
-
-    // worldSeries.mapPolygons.template.states.create('hover', {
-    //     fill: am5.color('#1BA68D'),
-    // });
-    // ************************* worldSeries *************************
-
     // ************************* countrySeries *************************
     // Create country series (hidden by default)
     const countrySeries = chart.series.push(
@@ -175,7 +152,6 @@ export default function WorldMap() {
       });
     });
     // ************************* pointSeries *************************
-    
 
     // Add zoom control
     const zoomControl = chart.set(
