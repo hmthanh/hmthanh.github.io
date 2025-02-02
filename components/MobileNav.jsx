@@ -11,16 +11,24 @@ export default function MobileNav() {
         <nav id="mobile-nav" className="nav">
           <ul className="clearfix">
             <li>
-              <Link href="/#about">About</Link>
+              <Link href="/#about">
+                About<span></span>
+              </Link>
             </li>
             <li>
-              <Link href="/#education">Education</Link>
+              <Link href="/#education">
+                Education<span></span>
+              </Link>
             </li>
             <li>
-              <Link href="/#experience">Experiences</Link>
+              <Link href="/#experience">
+                Experiences<span></span>
+              </Link>
             </li>
             <li>
-              <Link href="/#accomplishments">Awards</Link>
+              <Link href="/#accomplishments">
+                Awards<span></span>
+              </Link>
             </li>
             <li>
               <Link href="/#miscellaneous">
