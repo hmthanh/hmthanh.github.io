@@ -11,7 +11,7 @@ export default function Footer() {
             ✨
           </span>
           <br />
-          &copy; 2022 Thanh Hoang-Minh
+          &copy; 2025 Thanh Hoang-Minh
         </p>
       </section>
     </footer>
