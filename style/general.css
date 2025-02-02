@@ -1,0 +1,341 @@
+/**
+ * 2.0 - General
+ */
+
+/**
+ * 2.1 - Typography
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 25px 0;
+  line-height: 1.1;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  margin: 0 0 25px 0;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+blockquote {
+  color: #737881;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+
+blockquote:before {
+  content: "\e61c";
+  position: static;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+blockquote p {
+  margin-bottom: 20px;
+}
+
+blockquote > p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote cite {
+  padding-top: 20px;
+  margin-top: 25px;
+  position: relative;
+  display: block;
+}
+
+blockquote cite:before {
+  content: "";
+  width: 64px;
+  height: 1px;
+  background-color: #bfbfbf;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -32px;
+}
+
+blockquote cite,
+blockquote small {
+  color: #303030;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+blockquote em,
+blockquote i,
+blockquote cite {
+  font-style: normal;
+}
+
+address {
+  font-style: italic;
+  margin: 0 0 1.6em;
+}
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+  font-family: Inconsolata, monospace;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+pre {
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 1px solid #eaeaea;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  line-height: 1.2;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 0.8em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted #eaeaea;
+  border-bottom: 1px dotted rgba(51, 51, 51, 0.1);
+  cursor: help;
+}
+
+mark,
+ins {
+  text-decoration: none;
+}
+
+sup,
+sub {
+  font-size: 75%;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  bottom: 1ex;
+}
+
+sub {
+  top: 0.5ex;
+}
+
+small {
+  font-size: 75%;
+}
+
+big {
+  font-size: 125%;
+}
+
+/**
+  * 2.2 - Elements
+  */
+
+hr {
+  background-color: #bfbfbf;
+  border: 0;
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+/* ul,
+ ol {
+   margin: 0 0 25px 20px; } */
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+dl {
+  margin-bottom: 25px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #e5e5e5;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-width: 1px 0 0 1px;
+  margin: 0 0 25px 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+
+th {
+  border-width: 0 1px 1px 0;
+  font-weight: 700;
+}
+
+td {
+  border-width: 0 1px 1px 0;
+}
+
+th,
+td {
+  padding: 5px 10px;
+  vertical-align: top;
+}
+
+img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+figure {
+  margin: 0;
+}
+
+del {
+  opacity: 0.5;
+}
+
+/**
+  * 2.3 - Helper Classes
+  */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.valign-outer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: table;
+  position: static;
+}
+
+.valign-middle {
+  top: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  position: static;
+}
+
+.valign-inner {
+  position: relative;
+  top: -50%;
+}
+
+/**
+  * 2.4 - Icons
+  */
+
+.icon,
+blockquote:before,
+.ref-box .person-speech:before,
+.widget_search .search-form:before {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+blockquote:before,
+.ref-box .person-speech:before,
+.widget_search .search-form:before {
+  font-family: "icomoon";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

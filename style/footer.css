@@ -1,0 +1,24 @@
+/**
+ * 14.0 - Footer
+ */
+
+.footer-social {
+  padding: 30px 0;
+}
+
+.footer-social .social li a .icon {
+  color: #d7d7d7;
+  -webkit-transition: -webkit-transition, color 0.25s linear 0s;
+  -moz-transition: -moz-transition, color 0.25s linear 0s;
+  transition: transition, color 0.25s linear 0s;
+}
+
+.footer-social .social li a:hover .icon {
+  color: #6e6e6e;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    padding-bottom: 30px;
+  }
+}

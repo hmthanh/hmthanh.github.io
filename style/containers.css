@@ -1,0 +1,87 @@
+/**
+ * 7.0 - Containers
+ */
+
+body {
+  color: #3d4451;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #efefef;
+}
+
+.wrapper {
+  opacity: 1;
+  visibility: visible;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: opacity 400ms ease-out;
+  -moz-transition: opacity 400ms ease-out;
+  transition: opacity 400ms ease-out;
+}
+
+.mobile.lock-scroll,
+.mobile.lock-scroll body,
+.mobile.lock-scroll .wrapper {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  z-index: 2;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 70px;
+}
+
+.section-box {
+  padding: 40px 50px;
+}
+
+.section-title {
+  color: #3d4451;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 600;
+  text-align: center;
+}
+
+.grid-box,
+.post-box,
+.price-box,
+.section-box,
+.calendar-busy,
+.timeline-box-inner,
+.sidebar-default .profile-photo img {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+@media (max-width: 992px) {
+  .section-box {
+    padding: 50px 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding-top: 50px;
+  }
+  .section-box {
+    padding: 30px 20px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+}
