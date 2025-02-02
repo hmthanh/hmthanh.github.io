@@ -1,12 +1,9 @@
-import React, { lazy } from 'react';
 import WorldMap from '../TravelMap/TravelMap';
 import { Violin } from '@/icon/violin';
 import { Running } from '@/icon/running';
 import { Reading } from '@/icon/reading';
 import { Coding } from '@/icon/coding';
 import { Photography } from '@/icon/photography';
-// import WorldMap from "../WorldMap/WorldMap";
-// const WorldMap = lazy(() => import("../WorldMap/WorldMap"));
 
 export default function Miscellaneous() {
   return (
@@ -65,12 +62,11 @@ export default function Miscellaneous() {
           </ul>
           <br />
           <p>
-            "The World is a book and those who do not travel read only one page"
+            &quot;The World is a book and those who do not travel read only one
+            page&quot;
             <br />
           </p>
           <WorldMap />
-
-          {/* <WorldMap></WorldMap> */}
         </div>
       </div>
     </section>

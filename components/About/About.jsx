@@ -57,7 +57,7 @@ export default function About() {
                     <span className={`  `}>Hi !</span>
                   </div>
                   <h2 className="profile-title">
-                    <span>I'm</span> Thanh Hoang-Minh
+                    <span>I&apos;m</span> Thanh Hoang-Minh
                   </h2>
                   <div className="job-title">Machine Learning Engineer</div>
                   <h3 className="profile-position">
