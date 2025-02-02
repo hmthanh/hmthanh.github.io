@@ -12,6 +12,8 @@ import '../style/sidebar.css';
 import '../style/home.css';
 import '../style/theme_dark.css';
 import '../style/old_browser.css';
+import './overlay.css';
+
 
 export const metadata = {
   title: 'Hoang Minh Thanh - ✨ Your ambition outweighed your talent ! ✨',
@@ -65,7 +67,9 @@ export default function RootLayout({ children }) {
         <meta property="og:image:width" content="1060" />
         <meta property="og:image:height" content="607" />
       </Head>
-      <body className="antialiased home header-has-img">{children}</body>
+      <body className="antialiased home header-has-img">
+        {children}
+      </body>
     </html>
   );
 }
