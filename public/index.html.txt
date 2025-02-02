@@ -9,16 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hoang Minh Thanh - ✨ Your ambition outweighed your talent ! ✨</title>
     <meta name="description" content="Personal Resume - Hoang Minh Thanh" />
-    <meta property="og:site_name" content="Minh-Thanh Hoang" />
+    <meta property="og:site_name" content="Thanh Hoang-Minh" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Minh-Thanh Hoang" />
-    <meta property="og:description" content="Minh-Thanh Hoang • Machine Learning Engineer • Personal Resume" />
+    <meta property="og:title" content="Thanh Hoang-Minh" />
+    <meta property="og:description" content="Thanh Hoang-Minh • Machine Learning Engineer • Personal Resume" />
     <meta property="og:url" content="https://hmthanh.github.io/" />
     <meta property="og:image" content="https://hmthanh.github.io/img/cover.png" />
     <meta property="article:publisher" content="https://www.facebook.com/hmthanhgm/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Minh-Thanh Hoang" />
-    <meta name="twitter:description" content="Minh-Thanh Hoang • Machine Learning Engineer • Personal Resume" />
+    <meta name="twitter:title" content="Thanh Hoang-Minh" />
+    <meta name="twitter:description" content="Thanh Hoang-Minh • Machine Learning Engineer • Personal Resume" />
     <meta name="twitter:url" content="https://hmthanh.github.io/" />
     <meta name="twitter:image" content="https://hmthanh.github.io/img/cover.png" />
     <meta name="twitter:site" content="@hmthanhgm" />
