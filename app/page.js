@@ -12,6 +12,7 @@ import Miscellaneous from '@/components/Miscellaneous/Miscellaneous';
 import MobileNav from '@/components/MobileNav';
 import News from '@/components/News/News';
 import ScrollToTopButton from '@/components/ScrollToTopButton/ScrollToTopButton';
+import Loading from '@/components/Loading';
 
 export default function Page() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,39 +31,33 @@ export default function Page() {
     };
   }, []);
 
-  if (isLoading)
-    return (
-      <div
-        id="preloader"
-        className="h-screen w-screen fixed top-0 left-0 bg-[#05050F] z-50"
-      >
-        <div className="preloader-container">
-          <div className="cssload-loader">
-            <div className="cssload-inner cssload-one"></div>
-            <div className="cssload-inner cssload-two"></div>
-            <div className="cssload-inner cssload-three"></div>
-          </div>
-        </div>
-      </div>
-    );
-
   return (
     <FancyboxWrapper>
       <MobileNav></MobileNav>
       <main className="main h-[2000px] ">
         <div className="wrapper">
-          <Header></Header>
-          <div className="content">
-            <div className="container">
-              <About />
-              <News />
-              <Education />
-              <Experience />
-              <Accomplishments />
-              <Miscellaneous />
-            </div>
-          </div>
-          <Footer></Footer>
+          <div
+            className="head-bg"
+            style={{ backgroundImage: `url('/img/cover.webp')` }}
+          ></div>
+          {isLoading ? (
+            <Loading />
+          ) : (
+            <>
+              <Header></Header>
+              <div className="content">
+                <div className="container">
+                  <About />
+                  <News />
+                  <Education />
+                  <Experience />
+                  <Accomplishments />
+                  <Miscellaneous />
+                </div>
+              </div>
+              <Footer></Footer>
+            </>
+          )}
         </div>
       </main>
       {/* <Link className="btn-scroll-top" href="/#">

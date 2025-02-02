@@ -9,15 +9,7 @@ export default function Header() {
   return (
     <header className="header" style={{minHeight: "95px"}}>
       {/* <div className="head-bg" style={head_style}></div> */}
-      {/* <Image
-        src="/img/cover.webp"
-        alt="Background"
-        layout="fill"
-        objectFit="cover"
-        objectPosition="center"
-        className="z-0 head-bg"
-      /> */}
-      <div className="head-bg" style={{ backgroundImage: `url('/img/cover.webp')` }} ></div>
+      
       <div className="head-bar animated">
         <div className="head-bar-inner">
           <div className="row">

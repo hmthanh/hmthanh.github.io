@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function Education() {
   return (
@@ -7,10 +8,13 @@ export default function Education() {
         <div className="timeline">
           <div
             className="timeline-bar"
-            style={{ top: "80px", height: "77px" }}
+            style={{ top: '80px', height: '77px' }}
           ></div>
-          <div className="timeline-inner clearfix" style={{height: "417px"}}>
-            <div className="timeline-box timeline-box-compact timeline-box-left" style={{ position: "absolute", left: "0px", top: "0px" }}>
+          <div className="timeline-inner clearfix" style={{ height: '417px' }}>
+            <div
+              className="timeline-box timeline-box-compact timeline-box-left"
+              style={{ position: 'absolute', left: '0px', top: '0px' }}
+            >
               <span className="dot"></span>
               <div className="timeline-box-inner animate-left animated">
                 <span className="arrow"></span>
@@ -26,12 +30,12 @@ export default function Education() {
                   Bachelor of Computer Science
                 </h3>
                 <h4>
-                  <a href="https://en.hcmus.edu.vn/">University of Science</a>
-                  , VNU-HCM, Vietnam.
+                  <a href="https://en.hcmus.edu.vn/">University of Science</a>,
+                  VNU-HCM, Vietnam.
                 </h4>
                 {/* <b>(GPA : 8.2 ~ 3.3/4.0)</b> */}
                 <p>
-                  Thesis :{" "}
+                  Thesis :{' '}
                   <a href="https://github.com/hmthanh/GCAT">
                     Link Prediction in Knowledge Graph
                   </a>
@@ -39,21 +43,36 @@ export default function Education() {
               </div>
             </div>
 
-            <div className="timeline-box timeline-box-compact timeline-box-right" style={{position: "absolute", right: "0px", top: "70px"}}>
+            <div
+              className="timeline-box timeline-box-compact timeline-box-right"
+              style={{ position: 'absolute', right: '0px', top: '70px' }}
+            >
               <span className="dot"></span>
               <div className="timeline-box-inner animate-left animated">
                 <span className="arrow"></span>
                 <div className="date">
                   <span>Oct. 2021 - Now</span>
                 </div>
-                <img src="img/hcmus.webp" className="w-48 mx-auto" alt="HCMUS" />
+                <img
+                  src="img/hcmus.webp"
+                  className="w-48 mx-auto"
+                  alt="HCMUS"
+                />
                 <h3 className="timeline-box-header">
                   Master of Information Technology
                 </h3>
                 <h4>
-                  <a href="https://en.hcmus.edu.vn/">University of Science</a>
-                  , VNU-HCM, Vietnam.
+                  <a href="https://en.hcmus.edu.vn/">University of Science</a>,
+                  VNU-HCM, Vietnam.
                 </h4>
+                <p>
+                  Thesis :{' '}
+                  <a href="https://github.com/hmthanh/OHGesture">
+                    OpenHuman: A conversational gesture synthesis system based
+                    on emotions and semantics
+                  </a>
+                  {/* <img src="https://github.com/hmthanh/OHGesture/raw/main/OHGesture.png" /> */}
+                </p>
               </div>
             </div>
           </div>
