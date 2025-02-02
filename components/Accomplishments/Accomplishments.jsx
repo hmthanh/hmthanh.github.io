@@ -1,37 +1,6 @@
 import ShowCertificate from '../Certificate/ShowCertificate';
-import { Fancybox as NativeFancybox } from '@fancyapps/ui';
 
 export default function Accomplishments() {
-  const handleCriticalThinking = () => {
-    NativeFancybox.show([
-      {
-        src: '/img/Critical_Thinking.jpg',
-        type: 'image',
-        caption: 'Critical Thinking Certificate',
-      },
-      {
-        src: '/img/ml_summer.jpg',
-        type: 'image',
-        caption: 'Machine Learning Summar Certificate',
-      },
-      {
-        src: '/img/Emotion_Regconition.jpg',
-        type: 'image',
-        caption: 'Emotion Regconition Certificate',
-      },
-      {
-        src: '/img/ThachThuc2013.jpg',
-        type: 'image',
-        caption: 'ThachThuc2013',
-      },
-      {
-        src: '/img/ThachThuc2014.jpg',
-        type: 'image',
-        caption: 'ThachThuc2014',
-      },
-    ]);
-  };
-
   return (
     <section id="accomplishments" className="section section-text">
       <div className="animate-up animated">
@@ -94,7 +63,7 @@ export default function Accomplishments() {
           </li>
           <li>
             <b>Golden level</b>
-            <sup>C++, Problem Solving</sup>; Bronze level<sup>Python</sup> in' '
+            <sup>C++, Problem Solving</sup>; Bronze level<sup>Python</sup> in{' '}
             <a href="https://www.hackerrank.com/hmthanh">HackerRank</a>
           </li>
           <li>
