@@ -15,7 +15,7 @@ import '../style/old_browser.css';
 import './overlay.css';
 
 export const metadata = {
-  title: 'Hoang Minh Thanh - ✨ Your ambition outweighed your talent ! ✨',
+  title: 'Hoang Minh Thanh - ✨ Personal Resume ✨',
 };
 
 export default function RootLayout({ children }) {
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
-          Hoang Minh Thanh - ✨ Your ambition outweighed your talent ! ✨
+          Hoang Minh Thanh - ✨ Personal Resume ✨
         </title>
         <meta name="description" content="Personal Resume - Hoang Minh Thanh" />
         <meta property="og:site_name" content="Thanh Hoang-Minh" />
