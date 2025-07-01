@@ -9,6 +9,7 @@ import {
   Twitter,
   HackerRank,
   Kaggle,
+  Phone,
 } from '@/icon';
 import styles from './About.module.css';
 import Link from 'next/link';
@@ -59,7 +60,7 @@ export default function About() {
                   <h2 className="profile-title">
                     <span>I&apos;m</span> Thanh Hoang-Minh
                   </h2>
-                  <div className="job-title">Machine Learning Engineer</div>
+                  <div className="job-title">Senior Software Engineer</div>
                   <h3 className="profile-position">
                     <strong>M.S.</strong>
                   </h3>
@@ -160,21 +161,21 @@ export default function About() {
                   </h2>
 
                   <div className="mx-auto flex justify-center gap-4 items-center">
-                    <Link
+                    {/* <Link
                       className="fill-primary flex items-center gap-2"
                       href="skype:+hmthanhgm"
                     >
                       <Skype className="w-5 h-5" /> hmthanhgm
-                    </Link>
+                    </Link> */}
                     <Link
                       className="fill-primary flex items-center gap-2"
                       href="mailto:hmthanhgm@gmail.com"
                     >
                       <Envelope className="w-5 h-5" /> hmthanhgm@gmail.com
                     </Link>
-                    {/*<Link className="fill-primary flex items-center gap-2" href="tel:+84913472506">*/}
-                    {/*    <Phone/>+84913472506*/}
-                    {/*</a>*/}
+                    <Link className="fill-primary flex items-center gap-2" href="tel:+84913472506">
+                       <Phone className="w-5 h-5"/>(+84) 913 472 506
+                    </Link>
                   </div>
                 </div>
               </div>

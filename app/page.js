@@ -62,7 +62,7 @@ export default function Page() {
   return (
     <FancyboxWrapper>
       <MobileNav></MobileNav>
-      <main className="main h-[2000px] ">
+      <main className="main">
         <div className="wrapper">
           <div
             className="head-bg"

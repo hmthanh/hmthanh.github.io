@@ -4,12 +4,9 @@ export default function News() {
       <div className="animate-up animated">
         <div className="section-box">
           <p>
-            HI! I&apos;m studying postgraduate student at the{" "}
-            <a href="https://en.hcmus.edu.vn/">University of Science, Vietnam National University, Ho Chi Minh city</a>,
-            have solid background knowledge about OOP and Data Structure. Proficient Python, Golang, C++, experienced in
-            Web Development, CDN service, AWS, a bit of DevOps. With over 4<sup>years</sup> working in industry as
-            software engineer, an enthusiastic about coding, I&apos;m willing to devote all my productive time and effort to
-            work.
+            HI! I&apos;m passionate about WebGL and rendering every pixel on canvas context. With hands-on experience from multiple React and Three.js projects, I am well-suited for the Senior Software Engineer and capable of contributing to the development of high-quality, interactive 3D web experiences.
+            {/* <a href="https://en.hcmus.edu.vn/">University of Science, Vietnam National University, Ho Chi Minh city</a>, */}
+            
           </p>
           <p></p>
         </div>

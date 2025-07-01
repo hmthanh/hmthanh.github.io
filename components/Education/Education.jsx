@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Education() {
   return (
@@ -19,7 +19,7 @@ export default function Education() {
               <div className="timeline-box-inner animate-left animated">
                 <span className="arrow"></span>
                 <div className="date">
-                  <span>Nov. 2017 - Oct. 2020</span>
+                  <span>Sept. 2018 - Sept. 2020</span>
                 </div>
                 <img
                   src="./img/hcmus.webp"
@@ -39,6 +39,27 @@ export default function Education() {
                   <a href="https://github.com/hmthanh/GCAT">
                     Link Prediction in Knowledge Graph
                   </a>
+                  <br />
+                  <a
+                    className="underline"
+                    href="https://github.com/hmthanh/GCAT"
+                  >
+                    Github
+                  </a>{' '}
+                  <a
+                    className="underline"
+                    href="https://github.com/hmthanh/GCAT"
+                  >
+                    PDF
+                  </a>
+                  {' '}
+                  <a
+                    className="underline"
+                    href="https://www.scribd.com/presentation/628003420/Link-Prediction-in-Knowledge-Graph"
+                  >
+                    Slides
+                  </a>
+                  
                 </p>
               </div>
             </div>
@@ -51,7 +72,7 @@ export default function Education() {
               <div className="timeline-box-inner animate-left animated">
                 <span className="arrow"></span>
                 <div className="date">
-                  <span>Oct. 2021 - Now</span>
+                  <span>Oct. 2021 - Dec. 2024</span>
                 </div>
                 <img
                   src="img/hcmus.webp"
