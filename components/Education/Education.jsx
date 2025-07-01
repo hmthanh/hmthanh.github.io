@@ -7,13 +7,12 @@ export default function Education() {
         <h2 className="section-title">Education</h2>
         <div className="timeline">
           <div
-            className="timeline-bar"
-            style={{ top: '80px', height: '77px' }}
-          ></div>
-          <div className="timeline-inner clearfix" style={{ height: '417px' }}>
+            className="timeline-inner clearfix"
+            // style={{ height: '417px' }}
+          >
             <div
               className="timeline-box timeline-box-compact timeline-box-left"
-              style={{ position: 'absolute', left: '0px', top: '0px' }}
+              // style={{ position: 'absolute', left: '0px', top: '0px' }}
             >
               <span className="dot"></span>
               <div className="timeline-box-inner animate-left animated">
@@ -23,15 +22,15 @@ export default function Education() {
                 </div>
                 <img
                   src="./img/hcmus.webp"
-                  className="w-48 mx-auto"
+                  className="w-48 mx-auto py-2"
                   alt="HCMUS"
                 />
                 <h3 className="timeline-box-header">
-                  Bachelor of Computer Science
+                  <a href="https://en.hcmus.edu.vn/">University of Science</a>,
+                  VNU-HCM
                 </h3>
                 <h4>
-                  <a href="https://en.hcmus.edu.vn/">University of Science</a>,
-                  VNU-HCM, Vietnam.
+                  Bachelor of Computer Science
                 </h4>
                 {/* <b>(GPA : 8.2 ~ 3.3/4.0)</b> */}
                 <div className="pb-6">
@@ -59,10 +58,13 @@ export default function Education() {
                 </div>
               </div>
             </div>
-
             <div
-              className="timeline-box timeline-box-compact timeline-box-right"
-              style={{ position: 'absolute', right: '0px', top: '70px' }}
+              className="timeline-bar"
+              style={{ top: '80px', height: '80px' }}
+            ></div>
+            <div
+              className="timeline-box timeline-box-compact timeline-box-right relative mt-20"
+              // style={{   top: '70px' }}
             >
               <span className="dot"></span>
               <div className="timeline-box-inner animate-left animated">
@@ -72,20 +74,22 @@ export default function Education() {
                 </div>
                 <img
                   src="img/hcmus.webp"
-                  className="w-48 mx-auto"
+                  className="w-48 mx-auto py-2"
                   alt="HCMUS"
                 />
                 <h3 className="timeline-box-header">
-                  Master of Information Technology
+                  <a href="https://en.hcmus.edu.vn/">University of Science</a>,
+                  VNU-HCM
                 </h3>
                 <h4>
-                  <a href="https://en.hcmus.edu.vn/">University of Science</a>,
-                  VNU-HCM, Vietnam.
+                  Master of Information Technology
                 </h4>
-                <div className="">
-                  <p>Thesis: OpenHuman - A conversational gesture synthesis system based
-                    on emotions and semantics</p>
-                  <div className="flex justify-center gap-4 pt-2">
+                <div className="pb-6">
+                  <p>
+                    Thesis: OpenHuman - A conversational gesture synthesis
+                    system based on emotions and semantics
+                  </p>
+                  <div className="flex justify-center gap-4 pt-2 xl:flex-wrap">
                     <a
                       className="underline"
                       href="https://github.com/hmthanh/OHGesture"
@@ -125,7 +129,6 @@ export default function Education() {
                   </div>
                   {/* <img src="https://github.com/hmthanh/OHGesture/raw/main/OHGesture.png" /> */}
                 </div>
-                
               </div>
             </div>
           </div>

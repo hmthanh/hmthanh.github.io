@@ -192,19 +192,9 @@ export default function About() {
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="https://www.facebook.com/hmthanhgm"
+                  href="https://github.com/hmthanh"
                 >
-                  <Facebook className="w-5 h-5 fill-primary group-hover:fill-white" />
-                </Link>
-              </li>
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
-                <Link
-                  className=" overflow-hidden"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="https://twitter.com/hmthanhgm"
-                >
-                  <Twitter className="w-5 h-5 fill-primary group-hover:fill-white" />
+                  <Github className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
               <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
@@ -222,9 +212,19 @@ export default function About() {
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="https://github.com/hmthanh"
+                  href="https://www.facebook.com/hmthanhgm"
                 >
-                  <Github className="w-5 h-5 fill-primary group-hover:fill-white" />
+                  <Facebook className="w-5 h-5 fill-primary group-hover:fill-white" />
+                </Link>
+              </li>
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
+                <Link
+                  className=" overflow-hidden"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://twitter.com/hmthanhgm"
+                >
+                  <Twitter className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
               <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>

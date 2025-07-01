@@ -72,7 +72,7 @@ export default function Page() {
             <>
               <Header></Header>
               <div className="content">
-                <div className="container">
+                <div className="container flex flex-col">
                   <About />
                   <News />
                   <Education />

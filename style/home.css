@@ -1035,10 +1035,10 @@
   margin-bottom: 15px;
 }
 
-.timeline-box-compact .date,
+/* .timeline-box-compact .date,
 .timeline-box-compact h3 {
   text-align: left;
-}
+} */
 
 .timeline-box-compact .timeline-box-header {
   text-align: center;
