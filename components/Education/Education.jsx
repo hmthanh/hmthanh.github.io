@@ -34,33 +34,29 @@ export default function Education() {
                   VNU-HCM, Vietnam.
                 </h4>
                 {/* <b>(GPA : 8.2 ~ 3.3/4.0)</b> */}
-                <p>
-                  Thesis :{' '}
-                  <a href="https://github.com/hmthanh/GCAT">
-                    Link Prediction in Knowledge Graph
-                  </a>
-                  <br />
-                  <a
-                    className="underline"
-                    href="https://github.com/hmthanh/GCAT"
-                  >
-                    Github
-                  </a>{' '}
-                  <a
-                    className="underline"
-                    href="https://github.com/hmthanh/GCAT"
-                  >
-                    PDF
-                  </a>
-                  {' '}
-                  <a
-                    className="underline"
-                    href="https://www.scribd.com/presentation/628003420/Link-Prediction-in-Knowledge-Graph"
-                  >
-                    Slides
-                  </a>
-                  
-                </p>
+                <div className="pb-6">
+                  <p>Thesis : Link Prediction in Knowledge Graph</p>
+                  <div className="flex justify-center gap-4 pt-2">
+                    <a
+                      className="underline"
+                      href="https://github.com/hmthanh/GCAT"
+                    >
+                      Github
+                    </a>{' '}
+                    <a
+                      className="underline"
+                      href="/file/Link_Prediction_In_Knowledge_Graph.pdf"
+                    >
+                      PDF
+                    </a>{' '}
+                    <a
+                      className="underline"
+                      href="https://www.scribd.com/presentation/628003420/Link-Prediction-in-Knowledge-Graph"
+                    >
+                      Slides
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
 

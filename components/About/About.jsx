@@ -21,6 +21,7 @@ import { Jupyter } from '@/icon/jupyter';
 import { Terminal } from '@/icon/terminal';
 import { Database } from '@/icon/database';
 import { Git } from '@/icon/git';
+import SquirclesClipPath from '@/icon/SquirclesClipPath';
 
 export default function About() {
   return (
@@ -173,8 +174,12 @@ export default function About() {
                     >
                       <Envelope className="w-5 h-5" /> hmthanhgm@gmail.com
                     </Link>
-                    <Link className="fill-primary flex items-center gap-2" href="tel:+84913472506">
-                       <Phone className="w-5 h-5"/>(+84) 913 472 506
+                    <Link
+                      className="fill-primary flex items-center gap-2"
+                      href="tel:+84913472506"
+                    >
+                      <Phone className="w-5 h-5" />
+                      (+84) 913 472 506
                     </Link>
                   </div>
                 </div>
@@ -182,10 +187,26 @@ export default function About() {
             </div>
           </div>
           <div className={'mx-auto profile-social bg-primary'}>
+            {/* <SquirclesClipPath/> */}
+            <svg width="0" height="0" className="absolute">
+              <defs>
+                <mask id="squircle-mask" maskUnits="objectBoundingBox">
+                  <path
+                    fill="white"
+                    d="M 0,0.5
+                 C 0,0  0,0  0.5,0
+                   1,0  1,0  1,0.5
+                   1,1  1,1  0.5,1
+                   0,1  0,1  0,0.5"
+                  />
+                </mask>
+              </defs>
+            </svg>
+
             <ul className="flex gap-4 justify-center">
-              <li className="flex bg-white rounded-sm">
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
                 <Link
-                  className="group text-primary text-center w-9 h-9 flex items-center justify-center hover:shadow-[0px_0px_3px_rgb(4,135,204)] hover:bg-[rgb(4,135,204)] hover:text-[rgb(238,238,238)]"
+                  className=" overflow-hidden"
                   rel="noopener noreferrer"
                   target="_blank"
                   href="https://www.facebook.com/hmthanhgm"
@@ -193,9 +214,9 @@ export default function About() {
                   <Facebook className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              <li className="flex bg-white rounded-sm">
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
                 <Link
-                  className="group text-primary text-center w-9 h-9 flex items-center justify-center hover:shadow-[0px_0px_3px_rgb(4,135,204)] hover:bg-[rgb(4,135,204)] hover:text-[rgb(238,238,238)]"
+                  className=" overflow-hidden"
                   rel="noopener noreferrer"
                   target="_blank"
                   href="https://twitter.com/hmthanhgm"
@@ -203,9 +224,9 @@ export default function About() {
                   <Twitter className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              <li className="flex bg-white rounded-sm">
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
                 <Link
-                  className="group text-primary text-center w-9 h-9 flex items-center justify-center hover:shadow-[0px_0px_3px_rgb(4,135,204)] hover:bg-[rgb(4,135,204)] hover:text-[rgb(238,238,238)]"
+                  className=" overflow-hidden"
                   rel="noopener noreferrer"
                   target="_blank"
                   href="https://www.linkedin.com/in/hmthanh/"
@@ -213,9 +234,9 @@ export default function About() {
                   <Linkedin className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              <li className="flex bg-white rounded-sm">
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
                 <Link
-                  className="group text-primary text-center w-9 h-9 flex items-center justify-center hover:shadow-[0px_0px_3px_rgb(4,135,204)] hover:bg-[rgb(4,135,204)] hover:text-[rgb(238,238,238)]"
+                  className=" overflow-hidden"
                   rel="noopener noreferrer"
                   target="_blank"
                   href="https://github.com/hmthanh"
@@ -223,9 +244,9 @@ export default function About() {
                   <Github className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              <li className="flex bg-white rounded-sm">
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
                 <Link
-                  className="group text-primary text-center w-9 h-9 flex items-center justify-center hover:shadow-[0px_0px_3px_rgb(4,135,204)] hover:bg-[rgb(4,135,204)] hover:text-[rgb(238,238,238)]"
+                  className=" overflow-hidden"
                   rel="noopener noreferrer"
                   target="_blank"
                   href="https://medium.com/@hmthanh"
@@ -233,9 +254,9 @@ export default function About() {
                   <Medium className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              {/* <li className="flex bg-white rounded-sm">">
+              {/* <li className="flex bg-white rounded">
                 <Link
-                  className="group text-primary text-center w-9 h-9 flex items-center justify-center hover:shadow-[0px_0px_3px_rgb(4,135,204)] hover:bg-[rgb(4,135,204)] hover:text-[rgb(238,238,238)]"
+                  
                   rel="noopener noreferrer"
                   target="_blank"
                   href="https://stackoverflow.com/story/hmthanh"
@@ -244,9 +265,9 @@ export default function About() {
                 </Link>
               </li> */}
 
-              <li className="flex bg-white rounded-sm">
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
                 <Link
-                  className="group text-primary text-center w-9 h-9 flex items-center justify-center hover:shadow-[0px_0px_3px_rgb(4,135,204)] hover:bg-[rgb(4,135,204)] hover:text-[rgb(238,238,238)]"
+                  className=" overflow-hidden"
                   rel="noopener noreferrer"
                   target="_blank"
                   href="https://www.hackerrank.com/hmthanh"
@@ -255,9 +276,9 @@ export default function About() {
                 </Link>
               </li>
 
-              <li className="flex bg-white rounded-sm">
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
                 <Link
-                  className="group text-primary text-center w-9 h-9 flex items-center justify-center hover:shadow-[0px_0px_3px_rgb(4,135,204)] hover:bg-[rgb(4,135,204)] hover:text-[rgb(238,238,238)]"
+                  className=" overflow-hidden"
                   rel="noopener noreferrer"
                   target="_blank"
                   href="https://www.kaggle.com/hmthanh"

@@ -15,7 +15,7 @@ import ScrollToTopButton from '@/components/ScrollToTopButton/ScrollToTopButton'
 import Loading from '@/components/Loading';
 
 export default function Page() {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   // useEffect(() => {
   //   const handleLoad = () => {
   //     setTimeout(() => {
@@ -30,34 +30,32 @@ export default function Page() {
   //     window.removeEventListener('load', handleLoad);
   //   };
   // }, []);
-  useEffect(() => {
-    let timeoutId;
 
-    const handleLoad = () => {
-      // If the page loads in less than 3 seconds, wait for 1 second before hiding the loader
-      if (timeoutId) {
-        clearTimeout(timeoutId); // Clear the 3-second timeout
-        setTimeout(() => {
-          setIsLoading(false);
-        }, 800); // Wait for 1 second
-      } else {
-        // If the page takes more than 3 seconds to load, hide the loader immediately
-        setIsLoading(false);
-      }
-    };
+  // useEffect(() => {
+  //   let timeoutId = null;
 
-    // Set a timeout for 3 seconds
-    timeoutId = setTimeout(() => {
-      timeoutId = null; // Clear the timeout ID
-    }, 1000);
+  //   const handleLoad = () => {
+  //     if (timeoutId) {
+  //       clearTimeout(timeoutId);
+  //       setTimeout(() => {
+  //         setIsLoading(false);
+  //       }, 800); // Delay hide after fast load
+  //     } else {
+  //       setIsLoading(false); // Immediate hide after long load
+  //     }
+  //   };
 
-    window.addEventListener('load', handleLoad);
+  //   timeoutId = setTimeout(() => {
+  //     timeoutId = null; // Mark page as slow after 1s
+  //   }, 1000);
 
-    return () => {
-      window.removeEventListener('load', handleLoad);
-      if (timeoutId) clearTimeout(timeoutId); // Cleanup the timeout
-    };
-  }, []);
+  //   window.addEventListener('load', handleLoad);
+
+    // return () => {
+    //   window.removeEventListener('load', handleLoad);
+    //   if (timeoutId) clearTimeout(timeoutId);
+    // };
+  // }, []);
 
   return (
     <FancyboxWrapper>

@@ -8,6 +8,10 @@
   --primary-color: #1a77d4;
 }
 
+.squircle {
+	clip-path: url(#SquircleClip);
+}
+
 body {
   margin: 0;
   font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
