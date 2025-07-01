@@ -71,7 +71,7 @@ export default function About() {
                   </h2>
                   <div className="job-title">Senior Software Engineer</div>
                   <h3 className="profile-position">
-                    <strong>M.S.</strong>
+                    <strong>MSc</strong>
                   </h3>
                   <h2
                     className="profile-university"

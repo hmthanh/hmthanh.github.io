@@ -42,7 +42,7 @@ export default function Experience() {
                 <h4>Software Engineer</h4>
                 <p>
                   Zalo Content Delivery Network: caching service serve millions
-                  request of the top Vietnamese news & media website
+                  request of the top Vietnamese news & media
                 </p>
               </div>
             </div>
