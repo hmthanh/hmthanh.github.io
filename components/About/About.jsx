@@ -55,7 +55,7 @@ export default function About() {
               <div className="col-xs-7">
                 <div className="profile-info">
                   <div className={styles.profilePreword}>
-                    <span className={`bg-linear-to-tr from-primary to-blue-400`}>Hi !</span>
+                    <span className={`bg-linear-to-tr from-primary to-blue-400 rounded-md`}>Hi !</span>
                   </div>
                   <h2 className="profile-title">
                     <span>I&apos;m</span> Thanh Hoang-Minh

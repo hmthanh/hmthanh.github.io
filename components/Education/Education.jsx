@@ -4,7 +4,7 @@ export default function Education() {
   return (
     <section id="education" className="section section-education">
       <div className="animate-up">
-        <h2 className="section-title">Education</h2>
+        <h2 className="section-title font-extrabold">Education</h2>
         <div className="timeline">
           <div
             className="timeline-inner clearfix"
@@ -17,8 +17,8 @@ export default function Education() {
               <span className="dot"></span>
               <div className="timeline-box-inner animate-left animated">
                 <span className="arrow"></span>
-                <div className="date">
-                  <span>Sept. 2018 - Sept. 2020</span>
+                <div className="date ">
+                  <span className="text-white">Sept. 2018 - Sept. 2020</span>
                 </div>
                 <img
                   src="./img/hcmus.webp"
@@ -29,9 +29,7 @@ export default function Education() {
                   <a href="https://en.hcmus.edu.vn/">University of Science</a>,
                   VNU-HCM
                 </h3>
-                <h4>
-                  Bachelor of Computer Science
-                </h4>
+                <h4>Bachelor of Computer Science</h4>
                 {/* <b>(GPA : 8.2 ~ 3.3/4.0)</b> */}
                 <div className="pb-6">
                   <p>Thesis: Link Prediction in Knowledge Graph</p>
@@ -81,9 +79,7 @@ export default function Education() {
                   <a href="https://en.hcmus.edu.vn/">University of Science</a>,
                   VNU-HCM
                 </h3>
-                <h4>
-                  Master of Information Technology
-                </h4>
+                <h4>Master of Information Technology</h4>
                 <div className="pb-6">
                   <p>
                     Thesis: OpenHuman - A conversational gesture synthesis
