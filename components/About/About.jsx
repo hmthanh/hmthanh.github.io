@@ -21,7 +21,6 @@ import { Jupyter } from '@/icon/jupyter';
 import { Terminal } from '@/icon/terminal';
 import { Database } from '@/icon/database';
 import { Git } from '@/icon/git';
-import SquirclesClipPath from '@/icon/SquirclesClipPath';
 
 export default function About() {
   return (
@@ -56,7 +55,7 @@ export default function About() {
               <div className="col-xs-7">
                 <div className="profile-info">
                   <div className={styles.profilePreword}>
-                    <span className={`  `}>Hi !</span>
+                    <span className={`bg-linear-to-tr from-primary to-blue-400`}>Hi !</span>
                   </div>
                   <h2 className="profile-title">
                     <span>I&apos;m</span> Thanh Hoang-Minh
@@ -77,9 +76,9 @@ export default function About() {
                   </h2>
                   <br />
                   <h5 className="">
-                    <strong>Pages : </strong>
-                    <Link href={'https://millionscope.com'}>
-                      MillionScope.com
+                    <strong>Creator: </strong>
+                    <Link href={'https://www.youtube.com/@openhuman_ai'}>
+                      OpenHuman.AI
                     </Link>
                   </h5>
                   <h2 className="profile-university">
@@ -186,25 +185,9 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className={'mx-auto profile-social bg-primary'}>
-            {/* <SquirclesClipPath/> */}
-            <svg width="0" height="0" className="absolute">
-              <defs>
-                <mask id="squircle-mask" maskUnits="objectBoundingBox">
-                  <path
-                    fill="white"
-                    d="M 0,0.5
-                 C 0,0  0,0  0.5,0
-                   1,0  1,0  1,0.5
-                   1,1  1,1  0.5,1
-                   0,1  0,1  0,0.5"
-                  />
-                </mask>
-              </defs>
-            </svg>
-
+          <div className={'mx-auto profile-social bg-linear-to-tl from-primary to-blue-400'}>
             <ul className="flex gap-4 justify-center">
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
@@ -214,7 +197,7 @@ export default function About() {
                   <Facebook className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
@@ -224,7 +207,7 @@ export default function About() {
                   <Twitter className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
@@ -234,7 +217,7 @@ export default function About() {
                   <Linkedin className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
@@ -244,7 +227,7 @@ export default function About() {
                   <Github className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
@@ -265,7 +248,7 @@ export default function About() {
                 </Link>
               </li> */}
 
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
@@ -276,7 +259,7 @@ export default function About() {
                 </Link>
               </li>
 
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:'path("M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18")'}}>
+              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
