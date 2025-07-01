@@ -23,19 +23,21 @@ export default function Experience() {
               <span className="dot"></span>
               <div className="timeline-box-inner animate-left animated">
                 <span className="arrow"></span>
-                <div className="date text-left"><span>Oct. 2021 - Present</span></div>
-                <img src="img/vng.png" alt="VNG Corp" className="w-72 mx-auto py-2"/>
+                <div className="date text-left">
+                  <span>Oct. 2021 - Present</span>
+                </div>
+                <img
+                  src="img/vng.png"
+                  alt="VNG Corp"
+                  className="w-72 mx-auto py-2"
+                />
                 <div style={{ padding: '10px 0' }}></div>
                 <a
-                    href="https://vng.com.vn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <h3 className="text-center mt-5">
-                  
-                    VNG Corp
-                  
-                </h3>
+                  href="https://vng.com.vn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3 className="text-center mt-5">VNG Corp</h3>
                 </a>
                 <h4>Software Engineer</h4>
                 <p>
@@ -52,7 +54,9 @@ export default function Experience() {
               <span className="dot"></span>
               <div className="timeline-box-inner animate-right animated">
                 <span className="arrow"></span>
-                <div className="date text-left"><span>Oct. 2020 - Oct. 2021</span></div>
+                <div className="date text-left">
+                  <span>Oct. 2020 - Oct. 2021</span>
+                </div>
                 <img
                   src="img/fpt.png"
                   alt="FPT Software"
@@ -60,11 +64,9 @@ export default function Experience() {
                 />
                 <h3 className="text-center mt-5">FPT Software</h3>
                 <h4>AWS Data Software Engineer</h4>
-                <p>
-                  • AWS data system with onsite-offshore model
-                  <br />• AWS Failover routing policy. <br />• Provision AWS
-                  infrastructure for the data pipelines
-                </p>
+                <li>AWS data system with onsite-offshore model</li>
+                <li>AWS Failover routing policy</li>
+                <li>Provision AWS infrastructure for the data pipelines</li>
               </div>
             </div>
 
@@ -75,15 +77,17 @@ export default function Experience() {
               <span className="dot"></span>
               <div className="timeline-box-inner animate-left animated">
                 <span className="arrow"></span>
-                <div className="date text-left"><span>Aug. 2018 - Apr. 2019</span></div>
+                <div className="date text-left">
+                  <span>Aug. 2018 - Apr. 2019</span>
+                </div>
                 <img
                   src="img/xep.webp"
                   alt="XEP Company"
                   className="w-72 mx-auto py-2"
                 />
                 <h3 className="text-center mt-5">XEP Company</h3>
-                <h4>Web Developer</h4>
-                <p>• Develop fullstack CRUD a commercial website</p>
+                <h4>Software Engineer</h4>
+                <li>Develop fullstack CRUD a commercial website</li>
               </div>
             </div>
 
@@ -94,12 +98,18 @@ export default function Experience() {
               <span className="dot"></span>
               <div className="timeline-box-inner animate-right animated">
                 <span className="arrow"></span>
-                <div className="date text-left"><span>Aug. 2019 - Apr. 2020</span></div>
-                <img src="img/rakumo.png" alt="rakumo Co., Ltd" className="w-72 mx-auto py-2" />
+                <div className="date text-left">
+                  <span>Aug. 2019 - Apr. 2020</span>
+                </div>
+                <img
+                  src="img/rakumo.png"
+                  alt="rakumo Co., Ltd"
+                  className="w-72 mx-auto py-2"
+                />
                 <h3 className="text-center mt-5">rakumo Co., Ltd</h3>
-                <h4>Python Developer</h4>
-                <p>
-                  • Django Web: webapp integrate{' '}
+                <h4>Software Engineer</h4>
+                <li>
+                  Django Web: webapp integrate{' '}
                   <a
                     href="https://www.docusign.com"
                     target="_blank"
@@ -108,7 +118,7 @@ export default function Experience() {
                     DocuSign
                   </a>{' '}
                   system
-                </p>
+                </li>
               </div>
             </div>
           </div>
