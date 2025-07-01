@@ -6,7 +6,7 @@ export default function Footer() {
           <span role="img" aria-label=".">
             ✨
           </span>{" "}
-          Your ambition outweighed your talent !{" "}
+          Your ambition extend your talent !{" "}
           <span role="img" aria-label=".">
             ✨
           </span>

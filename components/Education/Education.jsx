@@ -35,20 +35,20 @@ export default function Education() {
                 </h4>
                 {/* <b>(GPA : 8.2 ~ 3.3/4.0)</b> */}
                 <div className="pb-6">
-                  <p>Thesis : Link Prediction in Knowledge Graph</p>
+                  <p>Thesis: Link Prediction in Knowledge Graph</p>
                   <div className="flex justify-center gap-4 pt-2">
                     <a
                       className="underline"
                       href="https://github.com/hmthanh/GCAT"
                     >
-                      Github
-                    </a>{' '}
+                      Code
+                    </a>
                     <a
                       className="underline"
-                      href="/file/Link_Prediction_In_Knowledge_Graph.pdf"
+                      href="/file/Link_Prediction_In_Knowledge_Graph.Report"
                     >
-                      PDF
-                    </a>{' '}
+                      Report
+                    </a>
                     <a
                       className="underline"
                       href="https://www.scribd.com/presentation/628003420/Link-Prediction-in-Knowledge-Graph"
@@ -82,14 +82,50 @@ export default function Education() {
                   <a href="https://en.hcmus.edu.vn/">University of Science</a>,
                   VNU-HCM, Vietnam.
                 </h4>
-                <p>
-                  Thesis :{' '}
-                  <a href="https://github.com/hmthanh/OHGesture">
-                    OpenHuman: A conversational gesture synthesis system based
-                    on emotions and semantics
-                  </a>
+                <div className="">
+                  <p>Thesis: OpenHuman - A conversational gesture synthesis system based
+                    on emotions and semantics</p>
+                  <div className="flex justify-center gap-4 pt-2">
+                    <a
+                      className="underline"
+                      href="https://github.com/hmthanh/OHGesture"
+                    >
+                      Code
+                    </a>
+                    <a
+                      className="underline"
+                      href="/file/OpenHuman-A_conversational_gesture_synthesis_system_based_on_emotions_and_semantics.Report"
+                    >
+                      Report
+                    </a>
+                    <a
+                      className="underline"
+                      href="https://huggingface.co/openhuman/openhuman"
+                    >
+                      Huggingface
+                    </a>
+                    <a
+                      className="underline"
+                      href="https://github.com/DeepGesture/deepgesture-unity"
+                    >
+                      Unity
+                    </a>
+                    <a
+                      className="underline"
+                      href="https://youtu.be/yLwXdm7UgPE"
+                    >
+                      Video
+                    </a>
+                    {/* <a
+                      className="underline"
+                      href="https://www.scribd.com/presentation/628003420/Link-Prediction-in-Knowledge-Graph"
+                    >
+                      Slides
+                    </a> */}
+                  </div>
                   {/* <img src="https://github.com/hmthanh/OHGesture/raw/main/OHGesture.png" /> */}
-                </p>
+                </div>
+                
               </div>
             </div>
           </div>
