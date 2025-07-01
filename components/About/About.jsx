@@ -21,6 +21,11 @@ import { Jupyter } from '@/icon/jupyter';
 import { Terminal } from '@/icon/terminal';
 import { Database } from '@/icon/database';
 import { Git } from '@/icon/git';
+import { Typescript } from '@/icon/typescript';
+import { Javascript } from '@/icon/javascript';
+import { Unity } from '@/icon/unity';
+import { Blender } from '@/icon/blender';
+import { Maya } from '@/icon/maya';
 
 export default function About() {
   return (
@@ -55,7 +60,11 @@ export default function About() {
               <div className="col-xs-7">
                 <div className="profile-info">
                   <div className={styles.profilePreword}>
-                    <span className={`bg-linear-to-tr from-primary to-blue-400 rounded-md`}>Hi !</span>
+                    <span
+                      className={`bg-linear-to-tr from-primary to-blue-400 rounded-md`}
+                    >
+                      Hi !
+                    </span>
                   </div>
                   <h2 className="profile-title">
                     <span>I&apos;m</span> Thanh Hoang-Minh
@@ -91,9 +100,14 @@ export default function About() {
                           src="./img/vsvim.webp"
                         />
                       </li> */}
+
                       <li>
-                        <VSCode className="w-6" />
+                        <Typescript className="w-6" />
                       </li>
+                      <li>
+                        <Javascript className="w-6" />
+                      </li>
+
                       <li>
                         {/* <img
                           className="w-6"
@@ -111,6 +125,9 @@ export default function About() {
                         <CPlusPlus className="w-6" />
                       </li>
                       <li>
+                        <VSCode className="w-6" />
+                      </li>
+                      <li>
                         {/* <img
                           className="w-6"
                           alt="jupyter"
@@ -119,13 +136,17 @@ export default function About() {
                         <Jupyter className="w-6" />
                       </li>
                       <li>
-                        {/* <img
-                          className="w-6"
-                          alt="command"
-                          src="./img/icon_command.webp"
-                        /> */}
-                        <Terminal className="w-6" />
+                        <Blender className="w-6" />
                       </li>
+                      <li>
+                        <Maya className="w-6" />
+                      </li>
+                      <li>
+                        <Unity className="w-6" />
+                      </li>
+                      {/* <li>
+                        <Terminal className="w-6" />
+                      </li> */}
                       <li>
                         {/* <img
                           className="w-6"
@@ -149,14 +170,9 @@ export default function About() {
                         /> */}
                         <Git className="w-6" />
                       </li>
-                      <li>
-                        {/* <img
-                          className="w-6"
-                          alt="github"
-                          src="./img/icon_github.webp"
-                        /> */}
+                      {/* <li>
                         <Github className="w-6 fill-black text-black" />
-                      </li>
+                      </li> */}
                     </ul>
                   </h2>
 
@@ -185,9 +201,19 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className={'mx-auto profile-social bg-linear-to-tl from-primary to-blue-400'}>
+          <div
+            className={
+              'mx-auto profile-social bg-linear-to-tl from-primary to-blue-400'
+            }
+          >
             <ul className="flex gap-4 justify-center">
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
+              <li
+                className="flex bg-white justify-center items-center text-center w-9 h-9"
+                style={{
+                  clipPath:
+                    "path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')",
+                }}
+              >
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
@@ -197,7 +223,13 @@ export default function About() {
                   <Github className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
+              <li
+                className="flex bg-white justify-center items-center text-center w-9 h-9"
+                style={{
+                  clipPath:
+                    "path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')",
+                }}
+              >
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
@@ -207,7 +239,13 @@ export default function About() {
                   <Linkedin className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
+              <li
+                className="flex bg-white justify-center items-center text-center w-9 h-9"
+                style={{
+                  clipPath:
+                    "path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')",
+                }}
+              >
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
@@ -217,7 +255,13 @@ export default function About() {
                   <Facebook className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
+              <li
+                className="flex bg-white justify-center items-center text-center w-9 h-9"
+                style={{
+                  clipPath:
+                    "path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')",
+                }}
+              >
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
@@ -227,7 +271,13 @@ export default function About() {
                   <Twitter className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
+              <li
+                className="flex bg-white justify-center items-center text-center w-9 h-9"
+                style={{
+                  clipPath:
+                    "path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')",
+                }}
+              >
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
@@ -248,7 +298,13 @@ export default function About() {
                 </Link>
               </li> */}
 
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
+              <li
+                className="flex bg-white justify-center items-center text-center w-9 h-9"
+                style={{
+                  clipPath:
+                    "path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')",
+                }}
+              >
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
@@ -259,7 +315,13 @@ export default function About() {
                 </Link>
               </li>
 
-              <li  className="flex bg-white justify-center items-center text-center w-9 h-9" style={{clipPath:"path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')"}}>
+              <li
+                className="flex bg-white justify-center items-center text-center w-9 h-9"
+                style={{
+                  clipPath:
+                    "path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')",
+                }}
+              >
                 <Link
                   className=" overflow-hidden"
                   rel="noopener noreferrer"
