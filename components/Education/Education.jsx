@@ -42,7 +42,7 @@ export default function Education() {
                     </a>
                     <a
                       className="underline"
-                      href="/file/Link_Prediction_In_Knowledge_Graph.Report"
+                      href="/file/Link_Prediction_In_Knowledge_Graph.pdf"
                     >
                       Report
                     </a>
@@ -94,7 +94,7 @@ export default function Education() {
                     </a>
                     <a
                       className="underline"
-                      href="/file/OpenHuman-A_conversational_gesture_synthesis_system_based_on_emotions_and_semantics.Report"
+                      href="/file/OpenHuman-A_conversational_gesture_synthesis_system_based_on_emotions_and_semantics.pdf"
                     >
                       Report
                     </a>
