@@ -40,12 +40,20 @@ export default function Education() {
                     >
                       Code
                     </a>
+                    <div className="">
+                    <a
+                      className="underline"
+                      href="/file/GCAT-LinkPredictioninKnowledgeGraphs.pdf"
+                    >
+                      Report [EN]
+                    </a>
                     <a
                       className="underline"
                       href="/file/Link_Prediction_In_Knowledge_Graph.pdf"
                     >
-                      Report
+                      [VN]
                     </a>
+                    </div>
                     <a
                       className="underline"
                       href="https://www.scribd.com/presentation/628003420/Link-Prediction-in-Knowledge-Graph"
@@ -92,12 +100,20 @@ export default function Education() {
                     >
                       Code
                     </a>
-                    <a
-                      className="underline"
-                      href="/file/OpenHuman-A_conversational_gesture_synthesis_system_based_on_emotions_and_semantics.pdf"
-                    >
-                      Report
-                    </a>
+                    <div className="">
+                      <a
+                        className=""
+                        href="/file/OpenHuman - A conversational gesture synthesis system based on emotions and semantics.pdf"
+                      >
+                        Report [EN]
+                      </a>
+                      <a
+                        className=""
+                        href="/file/OpenHuman-A_conversational_gesture_synthesis_system_based_on_emotions_and_semantics.pdf"
+                      >
+                        [VN]
+                      </a>
+                    </div>
                     <a
                       className="underline"
                       href="https://huggingface.co/openhuman/openhuman"
