@@ -15,7 +15,7 @@ import '../style/old_browser.css';
 import './overlay.css';
 
 export const metadata = {
-  title: 'Hoang Minh Thanh - ✨ Personal Resume ✨',
+  title: 'Hoang Minh Thanh - ✨ Personal Portfolio ✨',
 };
 
 export default function RootLayout({ children }) {
@@ -31,16 +31,16 @@ export default function RootLayout({ children }) {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
-          Hoang Minh Thanh - ✨ Personal Resume ✨
+          Hoang Minh Thanh - ✨ Personal Portfolio ✨
         </title>
-        <meta name="description" content="Personal Resume - Hoang Minh Thanh" />
+        <meta name="description" content="Personal Portfolio - Hoang Minh Thanh" />
         <meta property="og:site_name" content="Thanh Hoang-Minh" />
         <meta property="og:type" content="website" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any" />
         <meta property="og:title" content="Thanh Hoang-Minh" />
         <meta
           property="og:description"
-          content="Thanh Hoang-Minh • Machine Learning Engineer • Personal Resume"
+          content="Thanh Hoang-Minh • Machine Learning Engineer • Personal Portfolio"
         />
         <meta property="og:url" content="https://hmthanh.github.io/" />
         <meta
@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:title" content="Thanh Hoang-Minh" />
         <meta
           name="twitter:description"
-          content="Thanh Hoang-Minh • Machine Learning Engineer • Personal Resume"
+          content="Thanh Hoang-Minh • Machine Learning Engineer • Personal Portfolio"
         />
         <meta name="twitter:url" content="https://hmthanh.github.io/" />
         <meta
