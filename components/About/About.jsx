@@ -27,6 +27,7 @@ import { Unity } from '@/icon/unity';
 import { Blender } from '@/icon/blender';
 import { Maya } from '@/icon/maya';
 import { ORCID } from '@/icon/orcid';
+import { GGScholar } from '@/icon/ggscholar';
 
 export default function About() {
   return (
@@ -348,6 +349,27 @@ export default function About() {
                 >
                   <ORCID className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
+
+                
+              </li>
+
+              <li
+                className="flex bg-white justify-center items-center text-center w-9 h-9"
+                style={{
+                  clipPath:
+                    "path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')",
+                }}
+              >
+                <Link
+                  className=" overflow-hidden"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://scholar.google.com/citations?user=CbPqC30AAAAJ"
+                >
+                  <GGScholar className="w-5 h-5 fill-primary group-hover:fill-white" />
+                </Link>
+
+                
               </li>
 
               
