@@ -29,6 +29,21 @@ import { Maya } from '@/icon/maya';
 import { ORCID } from '@/icon/orcid';
 import { GGScholar } from '@/icon/ggscholar';
 
+const socialLinks = [
+  { href: 'https://github.com/hmthanh', icon: Github },
+  { href: 'https://www.linkedin.com/in/hmthanh/', icon: Linkedin },
+  { href: 'https://www.facebook.com/hmthanhgm', icon: Facebook },
+  { href: 'https://twitter.com/hmthanhgm', icon: Twitter },
+  { href: 'https://medium.com/@hmthanh', icon: Medium },
+  { href: 'https://www.hackerrank.com/hmthanh', icon: HackerRank },
+  { href: 'https://www.kaggle.com/hmthanh', icon: Kaggle },
+  { href: 'https://orcid.org/0009-0007-0898-5923', icon: ORCID },
+  {
+    href: 'https://scholar.google.com/citations?user=CbPqC30AAAAJ',
+    icon: GGScholar,
+  },
+];
+
 export default function About() {
   return (
     <section id="about" className="section section-about">
@@ -208,7 +223,7 @@ export default function About() {
               'mx-auto profile-social bg-linear-to-tl from-primary to-blue-400'
             }
           >
-            <ul className="flex gap-4 justify-center">
+            {/* <ul className="flex gap-4 justify-center">
               <li
                 className="flex bg-white justify-center items-center text-center w-9 h-9"
                 style={{
@@ -225,6 +240,7 @@ export default function About() {
                   <Github className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
+
               <li
                 className="flex bg-white justify-center items-center text-center w-9 h-9"
                 style={{
@@ -289,7 +305,7 @@ export default function About() {
                   <Medium className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
               </li>
-              {/* <li className="flex bg-white rounded">
+              <li className="flex bg-white rounded">
                 <Link
                   
                   rel="noopener noreferrer"
@@ -298,7 +314,7 @@ export default function About() {
                 >
                   <Stackoverflow className="w-5"/>
                 </Link>
-              </li> */}
+              </li>
 
               <li
                 className="flex bg-white justify-center items-center text-center w-9 h-9"
@@ -349,8 +365,6 @@ export default function About() {
                 >
                   <ORCID className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
-
-                
               </li>
 
               <li
@@ -368,11 +382,29 @@ export default function About() {
                 >
                   <GGScholar className="w-5 h-5 fill-primary group-hover:fill-white" />
                 </Link>
-
-                
               </li>
+            </ul> */}
 
-              
+            <ul className="flex gap-4 justify-center">
+              {socialLinks.map(({ href, icon: Icon }, idx) => (
+                <li
+                  key={idx}
+                  className="group flex justify-center items-center text-center w-9 h-9 bg-white hover:bg-primary transition-colors duration-200"
+                  style={{
+                    clipPath:
+                      "path('M 0,18 C 0,0 0,0 18,0 36,0 36,0 36,18 36,36 36,36 18,36 0,36 0,36 0,18')",
+                  }}
+                >
+                  <Link
+                    className="overflow-hidden"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href={href}
+                  >
+                    <Icon className="w-5 h-5 fill-primary group-hover:fill-white transition-colors duration-200" />
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
