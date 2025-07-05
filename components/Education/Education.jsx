@@ -43,20 +43,20 @@ export default function Education() {
                     <div className="">
                       <a
                         className=""
-                        href="/file/GCAT-LinkPredictioninKnowledgeGraphs.pdf"
+                        href="/file/GCAT_ReportEN.pdf"
                       >
                         Report [EN]
                       </a>
                       <a
                         className=""
-                        href="/file/Link_Prediction_In_Knowledge_Graph.pdf"
+                        href="/file/GCAT_ReportVN.pdf"
                       >
                         [VN]
                       </a>
                     </div>
                     <a
                       className=""
-                      href="/file/Graph Collaborative Attention Network for Link Prediction in Knowledge Graphs.pdf"
+                      href="/file/GCAT_Paper.pdf"
                     >
                       arXiv
                     </a>
@@ -109,20 +109,20 @@ export default function Education() {
                     <div className="">
                       <a
                         className=""
-                        href="/file/OpenHuman - A conversational gesture synthesis system based on emotions and semantics.pdf"
+                        href="/file/GCAT_ReportEN.pdf"
                       >
                         Report [EN]
                       </a>
                       <a
                         className=""
-                        href="/file/OpenHuman-A_conversational_gesture_synthesis_system_based_on_emotions_and_semantics.pdf"
+                        href="/file/GCAT_ReportVN.pdf"
                       >
                         [VN]
                       </a>
                     </div>
                     <a
                       className=""
-                      href="/file/DeepGesture - A conversational gesture synthesis system based on emotions and semantics.pdf"
+                      href="/file/GCAT_Paper.pdf"
                     >
                       arXiv
                     </a>
