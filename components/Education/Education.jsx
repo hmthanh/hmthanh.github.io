@@ -33,29 +33,35 @@ export default function Education() {
                 {/* <b>(GPA : 8.2 ~ 3.3/4.0)</b> */}
                 <div className="pb-6">
                   <p>Thesis: Link Prediction in Knowledge Graph</p>
-                  <div className="flex justify-center gap-4 pt-2">
+                  <div className="flex justify-center gap-4 pt-2 flex-wrap">
                     <a
-                      className="underline"
+                      className=""
                       href="https://github.com/hmthanh/GCAT"
                     >
                       Code
                     </a>
                     <div className="">
-                    <a
-                      className="underline"
-                      href="/file/GCAT-LinkPredictioninKnowledgeGraphs.pdf"
-                    >
-                      Report [EN]
-                    </a>
-                    <a
-                      className="underline"
-                      href="/file/Link_Prediction_In_Knowledge_Graph.pdf"
-                    >
-                      [VN]
-                    </a>
+                      <a
+                        className=""
+                        href="/file/GCAT-LinkPredictioninKnowledgeGraphs.pdf"
+                      >
+                        Report [EN]
+                      </a>
+                      <a
+                        className=""
+                        href="/file/Link_Prediction_In_Knowledge_Graph.pdf"
+                      >
+                        [VN]
+                      </a>
                     </div>
                     <a
-                      className="underline"
+                      className=""
+                      href="/file/Graph Collaborative Attention Network for Link Prediction in Knowledge Graphs.pdf"
+                    >
+                      arXiv
+                    </a>
+                    <a
+                      className=""
                       href="https://www.scribd.com/presentation/628003420/Link-Prediction-in-Knowledge-Graph"
                     >
                       Slides
@@ -93,9 +99,9 @@ export default function Education() {
                     Thesis: OpenHuman - A conversational gesture synthesis
                     system based on emotions and semantics
                   </p>
-                  <div className="flex justify-center gap-4 pt-2 xl:flex-wrap">
+                  <div className="flex justify-center gap-4 pt-2 flex-wrap">
                     <a
-                      className="underline"
+                      className="min-w-24"
                       href="https://github.com/hmthanh/OHGesture"
                     >
                       Code
@@ -115,25 +121,31 @@ export default function Education() {
                       </a>
                     </div>
                     <a
-                      className="underline"
+                      className=""
+                      href="/file/DeepGesture - A conversational gesture synthesis system based on emotions and semantics.pdf"
+                    >
+                      arXiv
+                    </a>
+                    <a
+                      className="min-w-24"
                       href="https://huggingface.co/openhuman/openhuman"
                     >
                       Huggingface
                     </a>
                     <a
-                      className="underline"
+                      className="min-w-24"
                       href="https://github.com/DeepGesture/deepgesture-unity"
                     >
                       Unity
                     </a>
                     <a
-                      className="underline"
+                      className="min-w-24"
                       href="https://youtu.be/yLwXdm7UgPE"
                     >
                       Video
                     </a>
                     {/* <a
-                      className="underline"
+                      className="min-w-24"
                       href="https://www.scribd.com/presentation/628003420/Link-Prediction-in-Knowledge-Graph"
                     >
                       Slides
