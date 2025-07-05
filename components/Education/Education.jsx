@@ -109,20 +109,20 @@ export default function Education() {
                     <div className="">
                       <a
                         className=""
-                        href="/file/GCAT_ReportEN.pdf"
+                        href="/file/DeepGesture_ReportEN.pdf"
                       >
                         Report [EN]
                       </a>
                       <a
                         className=""
-                        href="/file/GCAT_ReportVN.pdf"
+                        href="/file/DeepGesture_ReportVN.pdf"
                       >
                         [VN]
                       </a>
                     </div>
                     <a
                       className=""
-                      href="/file/GCAT_Paper.pdf"
+                      href="/file/DeepGesture_Paper.pdf"
                     >
                       arXiv
                     </a>
