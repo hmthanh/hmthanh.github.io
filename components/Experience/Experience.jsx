@@ -155,7 +155,7 @@ export default function Experience() {
 
             <div
               className="timeline-box timeline-box-compact timeline-box-right"
-              style={{ position: 'relative', right: '0px', marginTop: '100px' }}
+              style={{ position: 'relative', right: '0px', marginTop: '90px' }}
             >
               <span className="dot"></span>
               <div className="timeline-box-inner animate-right animated">
