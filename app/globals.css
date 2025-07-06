@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import './componets.css';
 
 @theme {
   --color-primary: #1a77d4;
@@ -50,7 +51,6 @@
   h6:first-child {
     @apply mt-0;
   }
- 
 }
 
 :root {

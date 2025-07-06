@@ -13,6 +13,7 @@ import MobileNav from '@/components/MobileNav';
 import ScrollToTopButton from '@/components/ScrollToTopButton/ScrollToTopButton';
 import Loading from '@/components/Loading';
 import Keypoint from '@/components/Keypoint/Keypoint';
+import Publications from '@/components/Publications/Publications';
 
 export default function Page() {
   const [isLoading, setIsLoading] = useState(false);
@@ -80,6 +81,7 @@ export default function Page() {
                   
                   <Education />
                   <Experience />
+                  <Publications/>
                   <Accomplishments />
                   <Miscellaneous />
                 </div>

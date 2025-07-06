@@ -1,10 +1,4 @@
 export default function Experience() {
-  // var logoStyle = {
-  //   float: "center",
-  //   width: "100%",
-  //   paddingLeft: "10%",
-  //   paddingRight: "10%",
-  // };
   return (
     <section id="experience" className="pt-16 section-experience">
       <div className="animate-up">

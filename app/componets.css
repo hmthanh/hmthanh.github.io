@@ -1,0 +1,23 @@
+@layer components {
+  .papers {
+    @apply flex flex-col gap-8;
+  }
+  .paper-item {
+    @apply flex items-start gap-4;
+  }
+
+  .paper-content {
+    @apply flex-grow flex flex-col gap-2;
+  }
+
+  .paper-links {
+    @apply flex gap-4;
+  }
+  .paper-year {
+    @apply text-right text-gray-500 w-36;
+  }
+
+  .paper-title {
+    @apply font-bold;
+  }
+}
