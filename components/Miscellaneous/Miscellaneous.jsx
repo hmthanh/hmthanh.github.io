@@ -1,9 +1,12 @@
-import WorldMap from '../TravelMap/TravelMap';
+// import WorldMap from '../TravelMap/TravelMap';
+import { lazy, Suspense } from 'react';
 import { Violin } from '@/icon/violin';
 import { Running } from '@/icon/running';
 import { Reading } from '@/icon/reading';
 import { Coding } from '@/icon/coding';
 import { Photography } from '@/icon/photography';
+
+const WorldMap = lazy(() => import('../TravelMap/TravelMap'));
 
 export default function Miscellaneous() {
   return (
@@ -66,7 +69,9 @@ export default function Miscellaneous() {
             page&quot;
             <br />
           </p>
-          <WorldMap />
+          <Suspense fallback={<div>Loading...</div>}>
+            <WorldMap />
+          </Suspense>
         </div>
       </div>
     </section>
