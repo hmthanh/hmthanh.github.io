@@ -1,6 +1,6 @@
-export default function News() {
+export default function Keypoint() {
   return (
-    <section id="news" className="section news-text">
+    <section id="keypoint" className="pt-16 news-text">
       <div className="animate-up animated">
         <div className="section-box">
           <p>

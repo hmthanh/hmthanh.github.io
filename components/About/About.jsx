@@ -46,7 +46,7 @@ const socialLinks = [
 
 export default function About() {
   return (
-    <section id="about" className="section section-about">
+    <section id="about" className="pt-16 section-about">
       <div className="animate-up">
         <div className="section-box">
           <div className="profile">

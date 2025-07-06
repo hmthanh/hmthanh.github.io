@@ -985,8 +985,8 @@
   margin-left: -2px;
   position: absolute;
   left: 50%;
-  top: 0;
-  height: 100%;
+  /* top: 0; */
+  /* height: 100%; */
 }
 
 .timeline .timeline-inner {
@@ -1043,10 +1043,6 @@
 .timeline-box-compact .timeline-box-header {
   text-align: center;
   margin-top: 20px;
-}
-
-.timeline-box-inner > * {
-  text-align: center;
 }
 
 .timeline-box-compact .date span {

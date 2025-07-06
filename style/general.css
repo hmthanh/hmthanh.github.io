@@ -6,54 +6,6 @@
  * 2.1 - Typography
  */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 400;
-  margin: 0 0 25px 0;
-  line-height: 1.1;
-}
-
-h1:first-child,
-h2:first-child,
-h3:first-child,
-h4:first-child,
-h5:first-child,
-h6:first-child {
-  margin-top: 0;
-}
-
-h1 {
-  font-size: 36px;
-}
-
-h2 {
-  font-size: 26px;
-}
-
-h3 {
-  font-size: 24px;
-}
-
-h4 {
-  font-size: 22px;
-}
-
-h5 {
-  font-size: 18px;
-}
-
-h6 {
-  font-size: 16px;
-}
-
-b,
-strong {
-  font-weight: 700;
-}
 
 dfn,
 cite,

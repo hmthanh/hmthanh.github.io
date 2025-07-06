@@ -10,9 +10,9 @@ import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import Miscellaneous from '@/components/Miscellaneous/Miscellaneous';
 import MobileNav from '@/components/MobileNav';
-import News from '@/components/News/News';
 import ScrollToTopButton from '@/components/ScrollToTopButton/ScrollToTopButton';
 import Loading from '@/components/Loading';
+import Keypoint from '@/components/Keypoint/Keypoint';
 
 export default function Page() {
   const [isLoading, setIsLoading] = useState(false);
@@ -51,10 +51,10 @@ export default function Page() {
 
   //   window.addEventListener('load', handleLoad);
 
-    // return () => {
-    //   window.removeEventListener('load', handleLoad);
-    //   if (timeoutId) clearTimeout(timeoutId);
-    // };
+  // return () => {
+  //   window.removeEventListener('load', handleLoad);
+  //   if (timeoutId) clearTimeout(timeoutId);
+  // };
   // }, []);
 
   return (
@@ -74,7 +74,10 @@ export default function Page() {
               <div className="content">
                 <div className="container flex flex-col">
                   <About />
-                  <News />
+
+                  <Keypoint />
+
+                  
                   <Education />
                   <Experience />
                   <Accomplishments />

@@ -2,9 +2,9 @@ import ShowCertificate from '../Certificate/ShowCertificate';
 
 export default function Accomplishments() {
   return (
-    <section id="accomplishments" className="section section-text">
+    <section id="accomplishments" className="pt-16 section-text">
       <div className="animate-up animated">
-        <h2 className="section-title">Awards and certifications</h2>
+        <h2 className="section-title mb-6">Awards and certifications</h2>
         <div className="section-box">
           <li>
             <b>Incentive Award</b> in The Good Chemistry District Student

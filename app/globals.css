@@ -3,6 +3,55 @@
 @theme {
   --color-primary: #1a77d4;
 }
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-normal m-0 mb-[25px] leading-[1.1];
+  }
+
+  h1 {
+    @apply text-[36px];
+  }
+
+  h2 {
+    @apply text-[26px];
+  }
+
+  h3 {
+    @apply text-[24px];
+  }
+
+  h4 {
+    @apply text-[22px];
+  }
+
+  h5 {
+    @apply text-[18px];
+  }
+
+  h6 {
+    @apply text-[16px];
+  }
+
+  b,
+  strong {
+    @apply font-bold;
+  }
+
+  h1:first-child,
+  h2:first-child,
+  h3:first-child,
+  h4:first-child,
+  h5:first-child,
+  h6:first-child {
+    @apply mt-0;
+  }
+ 
+}
 
 :root {
   --primary-color: #1a77d4;
@@ -66,9 +115,16 @@ section {
   display: block;
 }
 
-ol,
+/* ol,
 ul {
   list-style: none;
+} */
+
+/* .timeline-box-inner > * {
+  text-align: center;
+} */
+code {
+  font-size: 0.9em;
 }
 
 table {

@@ -7,9 +7,9 @@ import { Photography } from '@/icon/photography';
 
 export default function Miscellaneous() {
   return (
-    <section id="miscellaneous" className="section section-text">
+    <section id="miscellaneous" className="pt-16 section-text">
       <div className="animate-up ">
-        <h2 className="section-title">Miscellaneous</h2>
+        <h2 className="section-title mb-6">Miscellaneous</h2>
         <div className="section-box">
           <p>
             <b>Extra Activities</b>

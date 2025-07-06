@@ -2,17 +2,21 @@ import Image from 'next/image';
 
 export default function Education() {
   return (
-    <section id="education" className="section section-education">
+    
+    <section id="education" className="pt-16 section-education">
       <div className="animate-up">
-        <h2 className="section-title font-extrabold">Education</h2>
+        <h2 className="section-title mb-6 font-extrabold">Education</h2>
         <div className="timeline">
           <div
-            className="timeline-inner clearfix"
-            // style={{ height: '417px' }}
+              className="timeline-bar top-20 h-20"
+              style={{ top: '80px', height: '80px' }}
+            ></div>
+          <div
+            className="timeline-inner clear-both"
           >
             <div
-              className="timeline-box timeline-box-compact timeline-box-left"
-              // style={{ position: 'absolute', left: '0px', top: '0px' }}
+              className="timeline-box timeline-box-compact clear-both timeline-box-left"
+              style={{ position: 'relative', left: '0px' }}
             >
               <span className="dot"></span>
               <div className="timeline-box-inner animate-left animated">
@@ -21,7 +25,7 @@ export default function Education() {
                   <span className="text-white">Sept. 2018 - Sept. 2020</span>
                 </div>
                 <img
-                  src="./img/hcmus.webp"
+                  src="./img/hcmus.svg"
                   className="w-48 mx-auto py-2"
                   alt="HCMUS"
                 />
@@ -70,13 +74,10 @@ export default function Education() {
                 </div>
               </div>
             </div>
+            
             <div
-              className="timeline-bar"
-              style={{ top: '80px', height: '80px' }}
-            ></div>
-            <div
-              className="timeline-box timeline-box-compact timeline-box-right relative mt-20"
-              // style={{   top: '70px' }}
+              className="timeline-box timeline-box-compact clear-both timeline-box-right relative"
+              style={{ position:"relative" , marginTop: '76px' }}
             >
               <span className="dot"></span>
               <div className="timeline-box-inner animate-left animated">
@@ -85,7 +86,7 @@ export default function Education() {
                   <span>Oct. 2021 - Dec. 2024</span>
                 </div>
                 <img
-                  src="img/hcmus.webp"
+                  src="img/hcmus.svg"
                   className="w-48 mx-auto py-2"
                   alt="HCMUS"
                 />
