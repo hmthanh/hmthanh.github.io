@@ -92,7 +92,7 @@ export default function Experience() {
                 </div>
                 <img
                   src="img/VNG_Corp_logo.svg"
-                  alt="VNG Corp"
+                  alt="VNG Corporation"
                   className="w-72 mx-auto py-2"
                 />
                 <a
@@ -100,7 +100,7 @@ export default function Experience() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <h3 className="text-center mt-5">VNG Corp</h3>
+                  <h3 className="text-center mt-5">VNG Corporation</h3>
                 </a>
                 <h4>Software Engineer</h4>
                 <p>
@@ -109,12 +109,12 @@ export default function Experience() {
                 </p>
                 <ul className="list-disc text-left p-2 first:mt-0 ltr:ml-6 rtl:mr-6">
                   <li className="my-2">
-                    Implemented scheduled Java <code>ThreadPool</code> for
-                    monitoring stats execution.
+                    Implement java <code>ScheduledThreadPool</code> for monitoring stats execution.
                   </li>
                   <li className="my-2">
-                    Built a React admin dashboard with server visualization
-                    using <code>p5.js</code> in Next.js.
+                    Built admin dashboard in Next.js with server status
+                    visualization using <code>amCharts</code> and{' '}
+                    <code>p5.js</code>.
                   </li>
                 </ul>
               </div>
