@@ -19,15 +19,24 @@ export default function Miscellaneous() {
           </p>
           <li>
             <em>Full ThreeJS 3D Human with full mesh editable</em> (
-            <a href="https://hmthanh.github.io/3d-human-model/">View</a>)
+            <a href="https://hmthanh.github.io/3d-human-model/" target="_blank">
+              View
+            </a>
+            )
           </li>
           <li>
             <em>Pucca Runner (Dijkstra algorithm)</em> (
-            <a href="https://hmthanh.github.io/pucca_runner/">Play</a>)
+            <a href="https://hmthanh.github.io/pucca_runner/" target="_blank">
+              Play
+            </a>
+            )
           </li>
           <li>
             <em>Quick Draw </em> (
-            <a href="https://hmthanh.github.io/quickdraw/">Play</a>)
+            <a href="https://hmthanh.github.io/quickdraw/" target="_blank">
+              Play
+            </a>
+            )
           </li>
           <br />
           <p>
@@ -56,7 +65,10 @@ export default function Miscellaneous() {
               <span>Running</span>
             </li>
             <li>
-              <a href="https://www.youtube.com/watch?v=nNjR0pTDebA">
+              <a
+                href="https://www.youtube.com/watch?v=nNjR0pTDebA"
+                target="_blank"
+              >
                 {/* <img src="./img/violin.png" alt="Violin" /> */}
                 <Violin className="w-12" />
               </a>

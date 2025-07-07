@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import { lazy, Suspense } from 'react';
+
+const VideoDeepGesture = lazy(() => import('./VideoDeepGesture'));
 
 export default function Publications() {
   return (
@@ -17,6 +20,7 @@ export default function Publications() {
                   <a
                     href="https://hmthanh.github.io/file/DeepGesture_Paper.pdf"
                     className=""
+                    target="_blank"
                   >
                     [arXiv]
                   </a>
@@ -24,12 +28,14 @@ export default function Publications() {
                   <a
                     href="https://hmthanh.github.io/file/DeepGesture_Paper.pdf"
                     className=""
+                    target="_blank"
                   >
                     [Code]
                   </a>
                   <a
                     href="https://hmthanh.github.io/file/DeepGesture_Paper.pdf"
                     className=""
+                    target="_blank"
                   >
                     [Homepage]
                   </a>
@@ -37,6 +43,7 @@ export default function Publications() {
                   <a
                     href="https://hmthanh.github.io/file/DeepGesture_Paper.pdf"
                     className=""
+                    target="_blank"
                   >
                     [Huggingface]
                   </a>
@@ -53,16 +60,9 @@ export default function Publications() {
                 </div>
 
                 <div className="p-2">
-                  <iframe
-                    className="w-full mx-auto"
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/eZghfNGmZn8?si=9l-jilNvdi-JPFwT"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                  ></iframe>
+                  <Suspense fallback={<div>Loading...</div>}>
+                    <VideoDeepGesture />
+                  </Suspense>
                 </div>
               </div>
               <div className="paper-year">
@@ -77,7 +77,11 @@ export default function Publications() {
                   for Evaluating and Advancing Conversational Motion Synthesis
                 </p>
                 <div className="paper-links">
-                  <a href="https://arxiv.org/abs/2410.06327" className="">
+                  <a
+                    href="https://arxiv.org/abs/2410.06327"
+                    target="_blank"
+                    className=""
+                  >
                     [arXiv]
                   </a>
                 </div>
@@ -94,11 +98,15 @@ export default function Publications() {
                   Knowledge Graphs
                 </p>
                 <div className="paper-links">
-                  <a href="/file/GCAT_Paper.pdf" className="">
+                  <a href="/file/GCAT_Paper.pdf" target="_blank" className="">
                     [arXiv]
                   </a>
 
-                  <a href="https://github.com/hmthanh/GCAT" className="">
+                  <a
+                    href="https://github.com/hmthanh/GCAT"
+                    target="_blank"
+                    className=""
+                  >
                     [Code]
                   </a>
                 </div>

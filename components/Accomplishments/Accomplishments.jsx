@@ -45,7 +45,12 @@ export default function Accomplishments() {
           </li>
           <li>
             <b>Second Round</b> in{' '}
-            <a href="https://www.youtube.com/watch?v=hiit2jOgwVQ">Thach Thuc</a>{' '}
+            <a
+              href="https://www.youtube.com/watch?v=hiit2jOgwVQ"
+              target="_blank"
+            >
+              Thach Thuc
+            </a>{' '}
             Faculty of Information Technology, HCMUS{' '}
             <ShowCertificate
               image="/img/ThachThuc2013.jpg"
@@ -64,7 +69,9 @@ export default function Accomplishments() {
           <li>
             <b>Golden level</b>
             <sup>C++, Problem Solving</sup>; Bronze level<sup>Python</sup> in{' '}
-            <a href="https://www.hackerrank.com/hmthanh">HackerRank</a>
+            <a href="https://www.hackerrank.com/hmthanh" target="_blank">
+              HackerRank
+            </a>
           </li>
           <li>
             <a
