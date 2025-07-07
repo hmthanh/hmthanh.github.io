@@ -80,8 +80,8 @@ export default function Page() {
 
                   
                   <Education />
-                  <Experience />
                   <Publications/>
+                  <Experience />
                   <Accomplishments />
                   <Miscellaneous />
                 </div>

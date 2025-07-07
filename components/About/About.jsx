@@ -28,6 +28,7 @@ import { Blender } from '@/icon/blender';
 import { Maya } from '@/icon/maya';
 import { ORCID } from '@/icon/orcid';
 import { GGScholar } from '@/icon/ggscholar';
+import { CV } from '@/icon/cv';
 
 const socialLinks = [
   { href: 'https://github.com/hmthanh', icon: Github },
@@ -202,16 +203,18 @@ export default function About() {
                     </Link> */}
                     <Link
                       className="fill-primary flex items-center gap-2"
+                      href="/file/MLEngineerfor3DDigitalHumans.pdf"
+                    >
+                      <CV className="w-5 h-5" />
+                      CV
+                      {/* (+84) 913 472 506 */}
+                    </Link>
+
+                    <Link
+                      className="fill-primary flex items-center gap-2"
                       href="mailto:hmthanhgm@gmail.com"
                     >
                       <Envelope className="w-5 h-5" /> hmthanhgm@gmail.com
-                    </Link>
-                    <Link
-                      className="fill-primary flex items-center gap-2"
-                      href="tel:+84913472506"
-                    >
-                      <Phone className="w-5 h-5" />
-                      (+84) 913 472 506
                     </Link>
                   </div>
                 </div>
