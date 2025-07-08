@@ -60,7 +60,7 @@ export default function Education() {
                         [VN]
                       </a>
                     </div>
-                    <a className="" target="_blank" href="/file/GCAT_Paper.pdf">
+                    <a className="" target="_blank" href="https://arxiv.org/abs/2507.03947">
                       arXiv
                     </a>
                     <a
@@ -129,7 +129,7 @@ export default function Education() {
                     <a
                       className=""
                       target="_blank"
-                      href="/file/DeepGesture_Paper.pdf"
+                      href="https://arxiv.org/abs/2507.03147v1"
                     >
                       arXiv
                     </a>
