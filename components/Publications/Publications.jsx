@@ -17,8 +17,16 @@ export default function Publications() {
                   on emotions and semantics
                 </p>
                 <div className="paper-links">
+                   <a
+                    href="https://deepgesture.github.io"
+                    className=""
+                    target="_blank"
+                  >
+                    [Homepage]
+                  </a>
+                  
                   <a
-                    href="https://hmthanh.github.io/file/DeepGesture_Paper.pdf"
+                    href="https://arxiv.org/abs/2507.03147v1  "
                     className=""
                     target="_blank"
                   >
@@ -26,22 +34,16 @@ export default function Publications() {
                   </a>
 
                   <a
-                    href="https://hmthanh.github.io/file/DeepGesture_Paper.pdf"
+                    href="http://github.com/DeepGesture/DeepGesture"
                     className=""
                     target="_blank"
                   >
                     [Code]
                   </a>
-                  <a
-                    href="https://hmthanh.github.io/file/DeepGesture_Paper.pdf"
-                    className=""
-                    target="_blank"
-                  >
-                    [Homepage]
-                  </a>
+                 
 
                   <a
-                    href="https://hmthanh.github.io/file/DeepGesture_Paper.pdf"
+                    href="https://huggingface.co/DeepGesture"
                     className=""
                     target="_blank"
                   >
@@ -98,7 +100,7 @@ export default function Publications() {
                   Knowledge Graphs
                 </p>
                 <div className="paper-links">
-                  <a href="/file/GCAT_Paper.pdf" target="_blank" className="">
+                  <a href="https://arxiv.org/abs/2507.03947" target="_blank" className="">
                     [arXiv]
                   </a>
 
