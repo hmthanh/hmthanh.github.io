@@ -151,7 +151,7 @@ export default function Experience() {
                     AWS data system with onsite-offshore model
                   </li> */}
                   <li className="my-2">
-                    Implement AWS Failover routing policy with Route53
+                    Implement AWS Health Check Failover Routing Policy using Route 53, API Gateway, Lambda.
                   </li>
                   <li className="my-2">
                     CI/CD pipeline, implemented and modified real-time and batch
