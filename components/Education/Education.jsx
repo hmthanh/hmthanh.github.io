@@ -1,3 +1,4 @@
+import { HCMUS } from '@/logo/hcmus';
 import Image from 'next/image';
 
 export default function Education() {
@@ -21,11 +22,12 @@ export default function Education() {
                 <div className="date ">
                   <span className="text-white">Sept. 2018 - Sept. 2020</span>
                 </div>
-                <img
+                <HCMUS className="w-48 mx-auto py-2" />
+                {/* <img
                   src="./img/hcmus.svg"
                   className="w-48 mx-auto py-2"
                   alt="HCMUS"
-                />
+                /> */}
                 <h3 className="timeline-box-header">
                   <a href="https://en.hcmus.edu.vn/" target="_blank">
                     University of Science
@@ -85,11 +87,12 @@ export default function Education() {
                 <div className="date">
                   <span>Oct. 2021 - Dec. 2024</span>
                 </div>
-                <img
+                {/* <img
                   src="img/hcmus.svg"
                   className="w-48 mx-auto py-2"
                   alt="HCMUS"
-                />
+                /> */}
+                <HCMUS className="w-48 mx-auto py-2" />
                 <h3 className="timeline-box-header">
                   <a href="https://en.hcmus.edu.vn/" target="_blank">
                     University of Science

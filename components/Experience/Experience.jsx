@@ -1,3 +1,8 @@
+import { FPT } from '@/logo/fpt';
+import { OpenHuman } from '@/logo/openhuman';
+import { Rakumo } from '@/logo/rakumo';
+import { VNG } from '@/logo/vng';
+
 export default function Experience() {
   return (
     <section id="experience" className="pt-16 section-experience">
@@ -20,11 +25,12 @@ export default function Experience() {
                 <div className="date text-left">
                   <span>May. 2024 - Present</span>
                 </div>
-                <img
+                {/* <img
                   src="img/OpenHuman.svg"
                   alt="OpenHuman"
                   className="w-44 h-44 mx-auto py-2"
-                />
+                /> */}
+                <OpenHuman className="w-44 h-44 mx-auto py-2" />
                 <h3 className="text-center mt-5">OpenHuman</h3>
                 <h4>Creator</h4>
                 <p>Open store for realistic digital human.</p>
@@ -90,11 +96,12 @@ export default function Experience() {
                 <div className="date text-left">
                   <span>Oct. 2021 - May 2024</span>
                 </div>
-                <img
+                <VNG className="w-72 mx-auto py-2" />
+                {/* <img
                   src="img/VNG_Corp_logo.svg"
                   alt="VNG Corporation"
                   className="w-72 mx-auto py-2"
-                />
+                /> */}
                 <a
                   href="https://vng.com.vn"
                   target="_blank"
@@ -109,7 +116,8 @@ export default function Experience() {
                 </p>
                 <ul className="list-disc text-left p-2 first:mt-0 ltr:ml-6 rtl:mr-6">
                   <li className="my-2">
-                    Implement java <code>ScheduledThreadPool</code> for monitoring stats execution.
+                    Implement java <code>ScheduledThreadPool</code> for
+                    monitoring stats execution.
                   </li>
                   <li className="my-2">
                     Built admin dashboard in Next.js with server status
@@ -130,11 +138,12 @@ export default function Experience() {
                 <div className="date text-left">
                   <span>Oct. 2020 - Oct. 2021</span>
                 </div>
-                <img
+                <FPT className="w-72 mx-auto py-2" />
+                {/* <img
                   src="img/fpt.png"
                   alt="FPT Software"
                   className="w-72 mx-auto py-2"
-                />
+                /> */}
                 <h3 className="text-center mt-5">FPT Software</h3>
                 <h4>AWS Data Engineer</h4>
                 <ul className="list-disc text-left p-2 first:mt-0 ltr:ml-6 rtl:mr-6">
@@ -163,11 +172,12 @@ export default function Experience() {
                 <div className="date text-left">
                   <span>Aug. 2019 - Apr. 2020</span>
                 </div>
-                <img
+                {/* <img
                   src="img/rakumo.png"
                   alt="rakumo Co., Ltd"
                   className="w-72 mx-auto py-2"
-                />
+                /> */}
+                <Rakumo className="w-72 mx-auto py-2" />
                 <h3 className="text-center mt-5">rakumo Co., Ltd</h3>
                 <h4>Software Engineer</h4>
                 <ul className="list-disc text-left p-2 first:mt-0 ltr:ml-6 rtl:mr-6">
