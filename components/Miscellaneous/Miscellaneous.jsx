@@ -15,7 +15,7 @@ export default function Miscellaneous() {
         <h2 className="section-title mb-6">Miscellaneous</h2>
         <div className="section-box">
           <p>
-            <b>Extra Activities</b>
+            <b>Pet projects</b>
           </p>
           <li>
             <em>Full ThreeJS 3D Human with full mesh editable</em> (
@@ -24,9 +24,16 @@ export default function Miscellaneous() {
             </a>
             )
           </li>
+           <li>
+            <em>Animation in WebGL</em> (
+            <a href="https://hmthanh.github.io/collection_loading_animation/" target="_blank">
+              View
+            </a>
+            )
+          </li>
           <li>
-            <em>Pucca Runner (Dijkstra algorithm)</em> (
-            <a href="https://hmthanh.github.io/pucca_runner/" target="_blank">
+            <em>Pucca Runner (puccarunner.github.io)</em> (
+            <a href="https://puccarunner.github.io" target="_blank">
               Play
             </a>
             )
