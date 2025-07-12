@@ -104,9 +104,9 @@ export default function About() {
                   <br />
                   <h5 className="">
                     <strong>Creator: </strong>
-                    <Link href={'https://www.youtube.com/@openhuman_ai'}>
+                    <a href="https://www.youtube.com/@openhuman_ai" target='_blank'>
                       OpenHuman.AI
-                    </Link>
+                    </a>
                   </h5>
                   <h2 className="profile-university">
                     {/* <strong>Language & tools</strong> : */}
@@ -207,16 +207,15 @@ export default function About() {
                     >
                       <Skype className="w-5 h-5" /> hmthanhgm
                     </Link> */}
-                    <Link
+                    <a
                       className="fill-primary flex items-center gap-2"
-                      href="/phone.txt"
+                      target='_blank'
+                      href="https://hmthanh.github.io/phone.txt"
                     >
                       <Phone className="w-5 h-5" />
                       {/* <CV className="w-5 h-5" /> */}
                       (+84) 91X Y72 Z06
-                    </Link>
-
-                    
+                    </a>
                   </div>
                 </div>
               </div>
