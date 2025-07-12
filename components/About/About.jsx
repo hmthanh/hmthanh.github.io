@@ -195,6 +195,12 @@ export default function About() {
                   </h2>
 
                   <div className="mx-auto flex justify-center gap-4 items-center">
+                    <Link
+                      className="fill-primary flex items-center gap-2"
+                      href="mailto:hmthanhgm@gmail.com"
+                    >
+                      <Envelope className="w-5 h-5" /> hmthanhgm@gmail.com
+                    </Link>
                     {/* <Link
                       className="fill-primary flex items-center gap-2"
                       href="skype:+hmthanhgm"
@@ -203,19 +209,14 @@ export default function About() {
                     </Link> */}
                     <Link
                       className="fill-primary flex items-center gap-2"
-                      href="/file/MLEngineerfor3DDigitalHumans.pdf"
+                      href="/phone.txt"
                     >
-                      <CV className="w-5 h-5" />
-                      CV
-                      {/* (+84) 913 472 506 */}
+                      <Phone className="w-5 h-5" />
+                      {/* <CV className="w-5 h-5" /> */}
+                      (+84) 91X Y72 Z06
                     </Link>
 
-                    <Link
-                      className="fill-primary flex items-center gap-2"
-                      href="mailto:hmthanhgm@gmail.com"
-                    >
-                      <Envelope className="w-5 h-5" /> hmthanhgm@gmail.com
-                    </Link>
+                    
                   </div>
                 </div>
               </div>
