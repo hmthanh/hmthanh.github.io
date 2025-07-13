@@ -7,7 +7,7 @@ export default function Header() {
   //   backgroundImage: `url('img/cover.webp')`,
   // }
   return (
-    <header className="header" style={{ minHeight: '95px' }}>
+    <header className="header" >
       {/* <div className="head-bg" style={head_style}></div> */}
 
       <div className="head-bar animated">

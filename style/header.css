@@ -4,7 +4,7 @@
 
 .header {
   position: relative;
-  margin-bottom: 75px;
+  /* margin-bottom: 75px; */
   box-sizing: content-box;
 }
 
@@ -406,9 +406,9 @@
    * 9.4 - Header With BgImage
    */
 
-.header-has-img .header {
+/* .header-has-img .header {
   margin-bottom: 40px;
-}
+} */
 
 .header-has-img .head-bg {
   height: 270px;
