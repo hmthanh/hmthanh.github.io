@@ -12,7 +12,7 @@ export default function Accomplishments() {
               Contest - 2009
             </li>
             <li className="">
-              <em>
+              <em className="truncate">
                 <ShowCertificate
                   image="/img/Critical_Thinking.jpg"
                   caption="Critical Thinking Certificate"
@@ -23,7 +23,7 @@ export default function Accomplishments() {
               , Oct. 2014
             </li>
             <li className="">
-              <em>
+              <em className="truncate">
                 <ShowCertificate
                   image="/img/ml_summer.jpg"
                   caption="Summer Course Machine Learning - HCMUS"
@@ -34,7 +34,7 @@ export default function Accomplishments() {
               , Oct. 2019
             </li>
             <li className="">
-              <em>
+              <em className="truncate">
                 <ShowCertificate
                   image="/img/Emotion_Regconition.jpg"
                   caption="Emotion Recognition Certification - HCMUS"
