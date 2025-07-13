@@ -17,34 +17,42 @@ export default function Miscellaneous() {
           <p>
             <b>Pet projects</b>
           </p>
-          <li>
-            <em>Full ThreeJS 3D Human with full mesh editable</em> (
-            <a href="https://hmthanh.github.io/3d-human-model/" target="_blank">
-              View
-            </a>
-            )
-          </li>
-           <li>
-            <em>Animation in WebGL</em> (
-            <a href="https://hmthanh.github.io/collection_loading_animation/" target="_blank">
-              View
-            </a>
-            )
-          </li>
-          <li>
-            <em>Pucca Runner (puccarunner.github.io)</em> (
-            <a href="https://puccarunner.github.io" target="_blank">
-              Play
-            </a>
-            )
-          </li>
-          <li>
-            <em>Quick Draw </em> (
-            <a href="https://hmthanh.github.io/quickdraw/" target="_blank">
-              Play
-            </a>
-            )
-          </li>
+          <ul className="list-disc text-left p-2 first:mt-0 ltr:ml-6 rtl:mr-6">
+            <li>
+              <em>Full ThreeJS 3D Human with full mesh editable</em> (
+              <a
+                href="https://hmthanh.github.io/3d-human-model/"
+                target="_blank"
+              >
+                View
+              </a>
+              )
+            </li>
+            <li>
+              <em>Animation in WebGL</em> (
+              <a
+                href="https://hmthanh.github.io/collection_loading_animation/"
+                target="_blank"
+              >
+                View
+              </a>
+              )
+            </li>
+            <li>
+              <em>Pucca Runner (puccarunner.github.io)</em> (
+              <a href="https://puccarunner.github.io" target="_blank">
+                Play
+              </a>
+              )
+            </li>
+            <li>
+              <em>Quick Draw </em> (
+              <a href="https://hmthanh.github.io/quickdraw/" target="_blank">
+                Play
+              </a>
+              )
+            </li>
+          </ul>
           <br />
           <p>
             <b>Hobbies</b>

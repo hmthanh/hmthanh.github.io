@@ -73,7 +73,7 @@ export default function Page() {
             <>
               <Header></Header>
               <div className="content">
-                <div className="container flex flex-col">
+                <div className="container flex flex-col px-6">
                   <About />
 
                   <Keypoint />

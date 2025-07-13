@@ -11,10 +11,10 @@
   }
 
   .paper-links {
-    @apply flex gap-4;
+    @apply flex gap-4 flex-wrap ;
   }
   .paper-year {
-    @apply text-right text-gray-500 w-36;
+    @apply text-right text-gray-500 w-36 hidden sm:block;
   }
 
   .paper-title {

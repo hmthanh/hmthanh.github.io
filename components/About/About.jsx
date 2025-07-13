@@ -110,7 +110,7 @@ export default function About() {
                   </h5>
                   <h2 className="profile-university">
                     {/* <strong>Language & tools</strong> : */}
-                    <ul className="flex gap-4">
+                    <ul className="flex gap-4 flex-wrap items-center justify-center">
                       {/* <li>
                         <img
                           className="w-6"
@@ -194,7 +194,7 @@ export default function About() {
                     </ul>
                   </h2>
 
-                  <div className="mx-auto flex justify-center gap-4 items-center">
+                  <div className="mx-auto flex flex-wrap justify-center gap-4 items-center">
                     <Link
                       className="fill-primary flex items-center gap-2"
                       href="mailto:hmthanhgm@gmail.com"
@@ -388,7 +388,7 @@ export default function About() {
               </li>
             </ul> */}
 
-            <ul className="flex gap-4 justify-center">
+            <ul className="flex gap-4 justify-center flex-wrap px-4">
               {socialLinks.map(({ href, icon: Icon }, idx) => (
                 <li
                   key={idx}
