@@ -197,9 +197,9 @@ export default function About() {
                   <div className="mx-auto flex flex-wrap justify-center gap-4 items-center">
                     <Link
                       className="fill-primary flex items-center gap-2"
-                      href="mailto:hmthanhgm@gmail.com"
+                      href="https://hmthanh.github.io/email.txt"
                     >
-                      <Envelope className="w-5 h-5" /> hmthanhgm@gmail.com
+                      <Envelope className="w-5 h-5" /> hmthanh
                     </Link>
                     {/* <Link
                       className="fill-primary flex items-center gap-2"
