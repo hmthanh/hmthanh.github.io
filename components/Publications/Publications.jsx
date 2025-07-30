@@ -100,6 +100,10 @@ export default function Publications() {
                   Knowledge Graphs
                 </p>
                 <div className="paper-links">
+                  <a href="https://graphattentionnetwork.github.io" target="_blank" className="">
+                    [Homepage]
+                  </a>
+
                   <a href="https://arxiv.org/abs/2507.03947" target="_blank" className="">
                     [arXiv]
                   </a>
