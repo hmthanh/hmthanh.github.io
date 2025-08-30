@@ -14,7 +14,7 @@
     "@fancyapps/ui": "^6.0.18",
     "@tailwindcss/postcss": "^4.1.11",
     "autoprefixer": "^10.4.21",
-    "next": "15.4.5",
+    "next": "15.4.7",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
