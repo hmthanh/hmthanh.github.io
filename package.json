@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@amcharts/amcharts5": "^5.13.4",
+    "@amcharts/amcharts5": "^5.13.6",
     "@amcharts/amcharts5-geodata": "^5.1.5",
-    "@fancyapps/ui": "^6.0.18",
-    "@tailwindcss/postcss": "^4.1.11",
+    "@fancyapps/ui": "^6.0.31",
+    "@tailwindcss/postcss": "^4.1.13",
     "autoprefixer": "^10.4.21",
     "next": "15.4.7",
     "react": "^19.1.1",
@@ -21,8 +21,8 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
-    "eslint-config-next": "15.4.5",
+    "eslint-config-next": "15.5.3",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.13"
   }
 }
