@@ -13,12 +13,32 @@ export default function Publications() {
             <div className="paper-item">
               <div className="paper-content">
                 <p className="paper-title">
+                  Gesture Generation (Still) Needs Improved Human Evaluation Practices: Insights from a Community-Driven State-of-the-Art Benchmark
+                </p>
+                <div className="paper-links">
+                  <a
+                    href="https://arxiv.org/abs/2511.01233"
+                    target="_blank"
+                    className=""
+                  >
+                    [arXiv]
+                  </a>
+                </div>
+              </div>
+              <div className="paper-year">
+                <p>Oct. 2025</p>
+              </div>
+            </div>
+
+            <div className="paper-item">
+              <div className="paper-content">
+                <p className="paper-title">
                   DeepGesture: A conversational gesture synthesis system based
                   on emotions and semantics
                 </p>
                 <div className="paper-links">
                    <a
-                    href="https://deepgesture.github.io"
+                    href="https://deepgesture.pages.dev"
                     className=""
                     target="_blank"
                   >
