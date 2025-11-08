@@ -2,6 +2,7 @@ import { FPT } from '@/logo/fpt';
 import { OpenHuman } from '@/logo/openhuman';
 import { Rakumo } from '@/logo/rakumo';
 import { VNG } from '@/logo/vng';
+import { MOMO } from '@/logo/momo';
 
 export default function Experience() {
   return (
@@ -12,12 +13,71 @@ export default function Experience() {
         <div className="timeline">
           <div
             className="timeline-bar"
-            style={{ marginTop: '80px', height: '686px' }}
+            style={{ marginTop: '80px', height: '1120px' }}
           ></div>
           <div className="timeline-inner">
+
             <div
               className="timeline-box timeline-box-compact timeline-box-left"
               style={{ position: 'relative', left: '0px', marginTop: '0px' }}
+            >
+              <span className="dot"></span>
+              <div className="timeline-box-inner animate-left animated">
+                <span className="arrow"></span>
+                <div className="date text-left">
+                  <span>Oct. 2025 - Present</span>
+                </div>
+                {/* <img
+                  src="img/OpenHuman.svg"
+                  alt="OpenHuman"
+                  className="w-44 h-44 mx-auto py-2"
+                /> */}
+                <MOMO className="w-44 h-44 mx-auto py-2" />
+                <h3 className="text-center mt-5">MOMO (MService)</h3>
+                <h4>Software Engineer</h4>
+                {/* <p>Open store for realistic digital human.</p> */}
+                <ul className="list-disc text-left p-2 first:mt-0 ltr:ml-6 rtl:mr-6">
+                  <li className="my-2">
+                    Implement a merchant service (in microservice architecture) payment profile info
+                  </li>
+                  {/* <li className="my-2">
+                    <a href="https://github.com/DeepFACS" target="_blank">
+                      DeepFACS
+                    </a>
+                    : Blendshapes-base system with ARKit 52 using 3DScanStore
+                    mesh
+                  </li>
+                  <li className="my-2">
+                    <a
+                      href="https://github.com/DeepGesture/DeepGesture-Unity"
+                      target="_blank"
+                    >
+                      DeepGesture
+                    </a>{' '}
+                    (
+                    <a
+                      href="https://www.youtube.com/watch?v=eZghfNGmZn8"
+                      target="_blank"
+                    >
+                      Demo
+                    </a>
+                    ): Body animation AI in Unity, based on{' '}
+                    <a
+                      href="https://www.youtube.com/watch?v=YhH4PYEkVnY"
+                      target="_blank"
+                    >
+                      DeepPhase
+                    </a>
+                  </li> */}
+                </ul>
+
+                {/* <li className="my-2">Develop fullstack CRUD a commercial website</li> */}
+              </div>
+            </div>
+
+            <div
+              className="timeline-box timeline-box-compact timeline-box-right"
+              style={{ position: 'relative', left: '0px',  marginTop: '70px' }}
             >
               <span className="dot"></span>
               <div className="timeline-box-inner animate-left animated">
@@ -87,7 +147,7 @@ export default function Experience() {
             </div>
 
             <div
-              className="timeline-box timeline-box-compact timeline-box-right"
+              className="timeline-box timeline-box-compact timeline-box-left"
               style={{ position: 'relative', right: '0px', marginTop: '70px' }}
             >
               <span className="dot"></span>
@@ -129,7 +189,7 @@ export default function Experience() {
             </div>
 
             <div
-              className="timeline-box timeline-box-compact timeline-box-left"
+              className="timeline-box timeline-box-compact timeline-box-right"
               style={{ position: 'relative', left: '0px', marginTop: '40px' }}
             >
               <span className="dot"></span>
@@ -151,7 +211,8 @@ export default function Experience() {
                     AWS data system with onsite-offshore model
                   </li> */}
                   <li className="my-2">
-                    Implement AWS Health Check Failover Routing Policy using Route 53, API Gateway, Lambda.
+                    Implement AWS Health Check Failover Routing Policy using
+                    Route 53, API Gateway, Lambda.
                   </li>
                   <li className="my-2">
                     CI/CD pipeline, implemented and modified real-time and batch
@@ -163,8 +224,8 @@ export default function Experience() {
             </div>
 
             <div
-              className="timeline-box timeline-box-compact timeline-box-right"
-              style={{ position: 'relative', right: '0px', marginTop: '90px' }}
+              className="timeline-box timeline-box-compact timeline-box-left"
+              style={{ position: 'relative', right: '0px', marginTop: '40px' }}
             >
               <span className="dot"></span>
               <div className="timeline-box-inner animate-right animated">
