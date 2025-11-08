@@ -197,6 +197,7 @@ export default function About() {
                   <div className="mx-auto flex flex-wrap justify-center gap-4 items-center">
                     <Link
                       className="fill-primary flex items-center gap-2"
+                      target='_blank'
                       href="https://hmthanh.github.io/email.txt"
                     >
                       <Envelope className="w-5 h-5" /> hmthanh
