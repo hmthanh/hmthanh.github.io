@@ -13,7 +13,7 @@ export default function Publications() {
             <div className="paper-item">
               <div className="paper-content">
                 <p className="paper-title">
-                  Gesture Generation (Still) Needs Improved Human Evaluation Practices: Insights from a Community-Driven State-of-the-Art Benchmark
+                  Towards Reliable Human Evaluations in Gesture Generation: Insights from a Community-Driven State-of-the-Art Benchmark
                 </p>
                 <div className="paper-links">
                   <a
