@@ -84,7 +84,7 @@ tt,
 var,
 samp,
 pre {
-  font-family: Inconsolata, monospace;
+  /* font-family: Inconsolata, monospace; */
   -webkit-hyphens: none;
   -moz-hyphens: none;
   -ms-hyphens: none;
@@ -276,7 +276,7 @@ blockquote:before,
 blockquote:before,
 .ref-box .person-speech:before,
 .widget_search .search-form:before {
-  font-family: 'icomoon';
+  /* font-family: 'icomoon'; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

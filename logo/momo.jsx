@@ -13,7 +13,7 @@ export const MOMO = (props) => {
       />
       <mask
         id="mask0_221_43"
-        style={{ maskType: "luminance" }}
+        maskType="luminance"
         maskUnits="userSpaceOnUse"
         x="159"
         y="173"

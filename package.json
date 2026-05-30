@@ -9,20 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@amcharts/amcharts5": "^5.15.5",
+    "@amcharts/amcharts5": "^5.17.3",
     "@amcharts/amcharts5-geodata": "^5.1.5",
-    "@fancyapps/ui": "^6.1.10",
-    "@tailwindcss/postcss": "^4.1.18",
-    "autoprefixer": "^10.4.24",
-    "next": "^16.1.6",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "@fancyapps/ui": "^6.1.14",
+    "@tailwindcss/postcss": "^4.3.0",
+    "autoprefixer": "^10.5.0",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.6",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.18"
+    "eslint": "^10",
+    "eslint-config-next": "16.2.6",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0"
   }
 }

@@ -64,7 +64,7 @@
 .bx-wrapper .bx-pager {
 	text-align: center;
 	font-size: .85em;
-	font-family: Arial;
+	/* font-family: Arial; */
 	font-weight: bold;
 	color: #666;
 	padding-top: 20px;
@@ -191,7 +191,7 @@
 
 .bx-wrapper .bx-caption span {
 	color: #fff;
-	font-family: Arial;
+	/* font-family: Arial; */
 	display: block;
 	font-size: .85em;
 	padding: 10px;

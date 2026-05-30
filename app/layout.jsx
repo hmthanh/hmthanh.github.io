@@ -27,13 +27,43 @@ export default function RootLayout({ children }) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <link
+          rel="preload"
+          href="/fonts/TTT.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin
+        />
+        <link
+          rel="preload"
+          href="/fonts/TTT_Bold.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin
+        />
+        <link
+          rel="preload"
+          href="/fonts/TTT_Italic.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin
+        />
+        <link
+          rel="preload"
+          href="/fonts/TTT_Bold_Italic.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin
+        />
+        <link rel="stylesheet" href="/css/fonts.css" />
         <meta name="theme-color" content="#000000" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>
-          Hoang Minh Thanh - ✨ Personal Portfolio ✨
-        </title>
-        <meta name="description" content="Personal Portfolio - Hoang Minh Thanh" />
+        <title>Hoang Minh Thanh - ✨ Personal Portfolio ✨</title>
+        <meta
+          name="description"
+          content="Personal Portfolio - Hoang Minh Thanh"
+        />
         <meta property="og:site_name" content="Thanh Hoang-Minh" />
         <meta property="og:type" content="website" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any" />

@@ -141,7 +141,7 @@
 
 .nav-wrap .nav a {
   white-space: nowrap;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
 }
 
 .nav-wrap .nav a:hover {
@@ -368,7 +368,7 @@
   .mobile-nav .nav a {
     color: #fff;
     font-size: 14px;
-    font-family: "Open Sans", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
     line-height: 1;
     display: inline-block;
   }

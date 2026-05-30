@@ -1,0 +1,35 @@
+/* Regular */
+@font-face {
+  font-family: 'TTT';
+  src: url('/fonts/TTT.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'TTT';
+  src: url('/fonts/TTT_Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: block;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'TTT';
+  src: url('/fonts/TTT_Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'TTT';
+  src: url('/fonts/TTT_Bold_Italic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: block;
+}

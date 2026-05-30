@@ -63,16 +63,17 @@ export default function About() {
                   />
                 </div>
                 <div className="section-txt-btn">
-                  {/* <p>
+                  <p>
                     <Link
                       className="btn btn-lg btn-border ripple"
                       rel="noopener noreferrer"
                       target="_blank"
-                      href="./file/Hoang_Minh_Thanh-CV.pdf"
+                      href="https://hmthanh.github.io/cv/"
+                      // href="./file/Hoang_Minh_Thanh-CV.pdf"
                     >
                       Resume
                     </Link>
-                  </p> */}
+                  </p>
                 </div>
               </div>
               <div className="col-xs-7">

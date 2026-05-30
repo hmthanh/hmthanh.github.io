@@ -2,7 +2,7 @@ export const VSCode = (props) => (
   <svg {...props} viewBox="0 0 100 100">
     <mask
       id="mask0"
-      masktype="alpha"
+      maskType="alpha"
       maskUnits="userSpaceOnUse"
       x="0"
       y="0"
