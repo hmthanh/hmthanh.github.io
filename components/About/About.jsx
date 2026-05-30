@@ -105,6 +105,10 @@ export default function About() {
                   <br />
                   <h5 className="">
                     <strong>Creator: </strong>
+                    <a href="https://markdownoffice.com" target='_blank'>
+                      MarkdownOffice
+                    </a>
+                    {"  "}
                     <a href="https://www.youtube.com/@openhuman_ai" target='_blank'>
                       OpenHuman.AI
                     </a>

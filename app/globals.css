@@ -59,7 +59,7 @@
 
 html {
   font-family:
-    'TTT',
+    var(--font-ttt),
     'Segoe UI',
     -apple-system,
     BlinkMacSystemFont,

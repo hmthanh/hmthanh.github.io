@@ -1,7 +1,7 @@
 import './globals.css';
 import '../style/theme_color.css';
 import '../style/custom.css';
-import Head from 'next/head';
+import localFont from 'next/font/local';
 
 import '../style/general.css';
 import '../style/grid.css';
@@ -14,48 +14,46 @@ import '../style/theme_dark.css';
 import '../style/old_browser.css';
 import './overlay.css';
 
+const ttt = localFont({
+  variable: '--font-ttt',
+  display: 'block',
+  src: [
+    {
+      path: '../public/fonts/TTT.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/TTT_Italic.woff2',
+      weight: '400',
+      style: 'italic',
+    },
+    {
+      path: '../public/fonts/TTT_Bold.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/TTT_Bold_Italic.woff2',
+      weight: '700',
+      style: 'italic',
+    },
+  ],
+});
+
 export const metadata = {
   title: 'Hoang Minh Thanh - ✨ Personal Portfolio ✨',
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <Head>
+    <html lang="en" className={ttt.variable}>
+      <head>
         <meta charSet="utf-8" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <link
-          rel="preload"
-          href="/fonts/TTT.woff2"
-          as="font"
-          type="font/woff2"
-          crossorigin
-        />
-        <link
-          rel="preload"
-          href="/fonts/TTT_Bold.woff2"
-          as="font"
-          type="font/woff2"
-          crossorigin
-        />
-        <link
-          rel="preload"
-          href="/fonts/TTT_Italic.woff2"
-          as="font"
-          type="font/woff2"
-          crossorigin
-        />
-        <link
-          rel="preload"
-          href="/fonts/TTT_Bold_Italic.woff2"
-          as="font"
-          type="font/woff2"
-          crossorigin
-        />
-        <link rel="stylesheet" href="/css/fonts.css" />
         <meta name="theme-color" content="#000000" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -95,7 +93,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:site" content="@hmthanhgm" />
         <meta property="og:image:width" content="1060" />
         <meta property="og:image:height" content="607" />
-      </Head>
+      </head>
       <body className="antialiased home header-has-img">{children}</body>
     </html>
   );
